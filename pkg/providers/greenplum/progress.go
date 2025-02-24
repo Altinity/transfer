@@ -1,6 +1,6 @@
 package greenplum
 
-import "github.com/doublecloud/transfer/pkg/abstract"
+import "github.com/altinity/transfer/pkg/abstract"
 
 const EtaRowPartialProgress = 1 << 20
 

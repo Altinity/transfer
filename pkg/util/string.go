@@ -8,7 +8,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/library/go/core/xerrors"
 )
 
 const (

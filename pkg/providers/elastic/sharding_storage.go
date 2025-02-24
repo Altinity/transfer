@@ -4,10 +4,10 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/util/jsonx"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/util/jsonx"
 )
 
 var _ abstract.ShardingStorage = (*Storage)(nil)

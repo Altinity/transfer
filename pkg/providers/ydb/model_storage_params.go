@@ -1,7 +1,7 @@
 package ydb
 
 import (
-	"github.com/doublecloud/transfer/pkg/abstract/model"
+	"github.com/altinity/transfer/pkg/abstract/model"
 	v3credential "github.com/ydb-platform/ydb-go-sdk/v3/credentials"
 )
 

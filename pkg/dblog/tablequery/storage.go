@@ -3,7 +3,7 @@ package tablequery
 import (
 	"context"
 
-	"github.com/doublecloud/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract"
 )
 
 // StorageTableQueryable is storage with table query loading

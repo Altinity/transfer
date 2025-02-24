@@ -10,13 +10,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/providers/clickhouse"
-	"github.com/doublecloud/transfer/pkg/providers/mysql"
-	"github.com/doublecloud/transfer/pkg/providers/postgres"
-	"github.com/doublecloud/transfer/pkg/providers/ydb"
-	ytprovider "github.com/doublecloud/transfer/pkg/providers/yt"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/providers/clickhouse"
+	"github.com/altinity/transfer/pkg/providers/mysql"
+	"github.com/altinity/transfer/pkg/providers/postgres"
+	"github.com/altinity/transfer/pkg/providers/ydb"
+	ytprovider "github.com/altinity/transfer/pkg/providers/yt"
 	"golang.org/x/exp/slices"
 )
 

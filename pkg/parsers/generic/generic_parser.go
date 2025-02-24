@@ -14,13 +14,13 @@ import (
 	"time"
 
 	"github.com/araddon/dateparse"
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/format"
-	"github.com/doublecloud/transfer/pkg/parsers"
-	"github.com/doublecloud/transfer/pkg/parsers/registry/logfeller/lib"
-	"github.com/doublecloud/transfer/pkg/stats"
-	"github.com/doublecloud/transfer/pkg/util/castx"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/format"
+	"github.com/altinity/transfer/pkg/parsers"
+	"github.com/altinity/transfer/pkg/parsers/registry/logfeller/lib"
+	"github.com/altinity/transfer/pkg/stats"
+	"github.com/altinity/transfer/pkg/util/castx"
 	"github.com/goccy/go-json"
 	"github.com/valyala/fastjson"
 	"github.com/valyala/fastjson/fastfloat"
@@ -272,7 +272,7 @@ func IsGenericUnparsedSchema(schema *abstract.TableSchema) bool {
 	}
 	for i := 0; i < len(originalColumns); i++ {
 		if originalColumns[i].ColumnName != unparsedColumns[i].ColumnName ||
-			// type check contradicts timestamp hacks: https://github.com/doublecloud/transfer/arcadia/transfer_manager/go/pkg/providers/yt/sink/sink.go?rev=r13620609#L1018
+			// type check contradicts timestamp hacks: https://github.com/altinity/transfer/arcadia/transfer_manager/go/pkg/providers/yt/sink/sink.go?rev=r13620609#L1018
 			// originalColumns[i].DataType != unparsedColumns[i].DataType ||
 			originalColumns[i].PrimaryKey != unparsedColumns[i].PrimaryKey ||
 			originalColumns[i].Required != unparsedColumns[i].Required {

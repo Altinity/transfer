@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	logger "github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/parsers"
+	logger "github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/parsers"
 	"github.com/stretchr/testify/require"
 )
 

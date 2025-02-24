@@ -10,11 +10,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	debeziumparameters "github.com/doublecloud/transfer/pkg/debezium/parameters"
-	confluentsrmock "github.com/doublecloud/transfer/tests/helpers/confluent_schema_registry_mock"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract"
+	debeziumparameters "github.com/altinity/transfer/pkg/debezium/parameters"
+	confluentsrmock "github.com/altinity/transfer/tests/helpers/confluent_schema_registry_mock"
 	"github.com/santhosh-tekuri/jsonschema/v5"
 )
 

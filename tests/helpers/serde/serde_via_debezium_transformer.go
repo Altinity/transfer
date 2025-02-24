@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/debezium"
-	"github.com/doublecloud/transfer/pkg/debezium/testutil"
-	simple_transformer "github.com/doublecloud/transfer/tests/helpers/transformer"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/debezium"
+	"github.com/altinity/transfer/pkg/debezium/testutil"
+	simple_transformer "github.com/altinity/transfer/tests/helpers/transformer"
 	"github.com/stretchr/testify/require"
 )
 

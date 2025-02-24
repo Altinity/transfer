@@ -3,7 +3,7 @@ package postgres
 import (
 	"testing"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/library/go/core/xerrors"
 	"github.com/jackc/pgconn"
 	"github.com/stretchr/testify/require"
 )

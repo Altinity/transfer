@@ -3,10 +3,10 @@ package action
 import (
 	"time"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/library/go/slices"
-	"github.com/doublecloud/transfer/pkg/providers/delta/types"
-	"github.com/doublecloud/transfer/pkg/util/set"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/library/go/slices"
+	"github.com/altinity/transfer/pkg/providers/delta/types"
+	"github.com/altinity/transfer/pkg/util/set"
 	"github.com/google/uuid"
 )
 

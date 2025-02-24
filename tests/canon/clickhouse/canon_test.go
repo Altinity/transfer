@@ -5,13 +5,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/doublecloud/transfer/pkg/abstract"
-	dp_model "github.com/doublecloud/transfer/pkg/abstract/model"
-	"github.com/doublecloud/transfer/pkg/providers/clickhouse"
-	"github.com/doublecloud/transfer/pkg/providers/clickhouse/columntypes"
-	"github.com/doublecloud/transfer/pkg/providers/clickhouse/model"
-	"github.com/doublecloud/transfer/tests/canon/validator"
-	"github.com/doublecloud/transfer/tests/helpers"
+	"github.com/altinity/transfer/pkg/abstract"
+	dp_model "github.com/altinity/transfer/pkg/abstract/model"
+	"github.com/altinity/transfer/pkg/providers/clickhouse"
+	"github.com/altinity/transfer/pkg/providers/clickhouse/columntypes"
+	"github.com/altinity/transfer/pkg/providers/clickhouse/model"
+	"github.com/altinity/transfer/tests/canon/validator"
+	"github.com/altinity/transfer/tests/helpers"
 )
 
 func getID(item abstract.ChangeItem) uint64 {

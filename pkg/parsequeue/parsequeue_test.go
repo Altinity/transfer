@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/pkg/abstract"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/pkg/abstract"
 	"github.com/stretchr/testify/require"
 )
 

@@ -3,8 +3,8 @@ package errors
 import (
 	"testing"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/errors/categories"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/errors/categories"
 	"github.com/stretchr/testify/require"
 )
 

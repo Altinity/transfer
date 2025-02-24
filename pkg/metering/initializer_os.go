@@ -4,8 +4,8 @@
 package metering
 
 import (
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/pkg/abstract/model"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/pkg/abstract/model"
 )
 
 func Agent() MeteringAgent {

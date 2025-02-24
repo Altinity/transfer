@@ -6,11 +6,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/dblog"
-	"github.com/doublecloud/transfer/tests/helpers"
-	mockstorage "github.com/doublecloud/transfer/tests/helpers/mock_storage"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/dblog"
+	"github.com/altinity/transfer/tests/helpers"
+	mockstorage "github.com/altinity/transfer/tests/helpers/mock_storage"
 	"github.com/stretchr/testify/require"
 	ytschema "go.ytsaurus.tech/yt/go/schema"
 )

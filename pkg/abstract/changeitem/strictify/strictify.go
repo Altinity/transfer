@@ -3,11 +3,11 @@ package strictify
 import (
 	"math"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract/changeitem"
-	"github.com/doublecloud/transfer/pkg/abstract/dterrors"
-	"github.com/doublecloud/transfer/pkg/util/castx"
-	"github.com/doublecloud/transfer/pkg/util/generics"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract/changeitem"
+	"github.com/altinity/transfer/pkg/abstract/dterrors"
+	"github.com/altinity/transfer/pkg/util/castx"
+	"github.com/altinity/transfer/pkg/util/generics"
 	"github.com/spf13/cast"
 	"go.ytsaurus.tech/yt/go/schema"
 )

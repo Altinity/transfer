@@ -3,9 +3,9 @@ package helpers
 import (
 	"testing"
 
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/abstract/model"
-	_ "github.com/doublecloud/transfer/pkg/dataplane"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract/model"
+	_ "github.com/altinity/transfer/pkg/dataplane"
 	"github.com/stretchr/testify/require"
 )
 

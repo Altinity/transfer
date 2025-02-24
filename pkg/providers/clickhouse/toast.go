@@ -7,12 +7,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/errors/coded"
-	"github.com/doublecloud/transfer/pkg/providers/clickhouse/columntypes"
-	"github.com/doublecloud/transfer/pkg/providers/clickhouse/errors"
-	"github.com/doublecloud/transfer/pkg/util"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/errors/coded"
+	"github.com/altinity/transfer/pkg/providers/clickhouse/columntypes"
+	"github.com/altinity/transfer/pkg/providers/clickhouse/errors"
+	"github.com/altinity/transfer/pkg/util"
 	"go.ytsaurus.tech/library/go/core/log"
 )
 

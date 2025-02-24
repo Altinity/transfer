@@ -1,10 +1,10 @@
 package tasks
 
 import (
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract/coordinator"
-	"github.com/doublecloud/transfer/pkg/abstract/model"
-	"github.com/doublecloud/transfer/pkg/config/env"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract/coordinator"
+	"github.com/altinity/transfer/pkg/abstract/model"
+	"github.com/altinity/transfer/pkg/config/env"
 )
 
 var ErrNoActiveOperation = xerrors.NewSentinel("TM: missed operation id")

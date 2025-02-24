@@ -3,8 +3,8 @@ package rawdocgrouper
 import (
 	"strings"
 
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/util/set"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/util/set"
 	"go.ytsaurus.tech/yt/go/schema"
 	"golang.org/x/exp/slices"
 )

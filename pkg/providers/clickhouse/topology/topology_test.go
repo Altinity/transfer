@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/DATA-DOG/go-sqlmock"
-	"github.com/doublecloud/transfer/pkg/providers/clickhouse/model"
+	"github.com/altinity/transfer/pkg/providers/clickhouse/model"
 	"github.com/stretchr/testify/require"
 )
 

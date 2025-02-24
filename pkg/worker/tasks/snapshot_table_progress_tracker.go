@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/pkg/abstract/coordinator"
-	"github.com/doublecloud/transfer/pkg/abstract/model"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/pkg/abstract/coordinator"
+	"github.com/altinity/transfer/pkg/abstract/model"
 	"go.ytsaurus.tech/library/go/core/log"
 )
 

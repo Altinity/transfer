@@ -4,11 +4,11 @@ import (
 	"fmt"
 
 	"github.com/charmbracelet/glamour"
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/abstract/model"
-	"github.com/doublecloud/transfer/pkg/cobraaux"
-	"github.com/doublecloud/transfer/pkg/transformer"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract/model"
+	"github.com/altinity/transfer/pkg/cobraaux"
+	"github.com/altinity/transfer/pkg/transformer"
 	"github.com/spf13/cobra"
 	"gopkg.in/yaml.v2"
 )

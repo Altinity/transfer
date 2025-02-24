@@ -1,9 +1,9 @@
 package transformer
 
 import (
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/terryid"
-	"github.com/doublecloud/transfer/pkg/util"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/terryid"
+	"github.com/altinity/transfer/pkg/util"
 )
 
 type Config any

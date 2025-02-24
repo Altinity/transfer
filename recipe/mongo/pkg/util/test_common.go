@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	mongoshardedcluster "github.com/doublecloud/transfer/recipe/mongo/pkg/cluster"
+	mongoshardedcluster "github.com/altinity/transfer/recipe/mongo/pkg/cluster"
 	"github.com/stretchr/testify/require"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"

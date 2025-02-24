@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/pkg/parsers"
-	"github.com/doublecloud/transfer/pkg/parsers/registry/debezium/engine"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/pkg/parsers"
+	"github.com/altinity/transfer/pkg/parsers/registry/debezium/engine"
 )
 
 //go:embed parser_test.jsonl

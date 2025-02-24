@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/doublecloud/transfer/library/go/core/metrics"
-	"github.com/doublecloud/transfer/library/go/core/metrics/internal/pkg/metricsutil"
-	"github.com/doublecloud/transfer/library/go/core/metrics/internal/pkg/registryutil"
+	"github.com/altinity/transfer/library/go/core/metrics"
+	"github.com/altinity/transfer/library/go/core/metrics/internal/pkg/metricsutil"
+	"github.com/altinity/transfer/library/go/core/metrics/internal/pkg/registryutil"
 	"go.ytsaurus.tech/library/go/core/log"
 	"go.ytsaurus.tech/library/go/core/log/nop"
 )

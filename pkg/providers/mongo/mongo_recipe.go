@@ -8,9 +8,9 @@ import (
 
 	"github.com/cenkalti/backoff/v4"
 	"github.com/docker/go-connections/nat"
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract/model"
-	"github.com/doublecloud/transfer/tests/tcrecipes"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract/model"
+	"github.com/altinity/transfer/tests/tcrecipes"
 	"github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/wait"
 	"go.mongodb.org/mongo-driver/bson"

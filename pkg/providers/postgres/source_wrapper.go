@@ -4,12 +4,12 @@ import (
 	"context"
 	"time"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/abstract/coordinator"
-	"github.com/doublecloud/transfer/pkg/abstract/model"
-	"github.com/doublecloud/transfer/pkg/stats"
-	"github.com/doublecloud/transfer/pkg/util"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract/coordinator"
+	"github.com/altinity/transfer/pkg/abstract/model"
+	"github.com/altinity/transfer/pkg/stats"
+	"github.com/altinity/transfer/pkg/util"
 	"github.com/jackc/pgx/v4/pgxpool"
 	"go.ytsaurus.tech/library/go/core/log"
 )

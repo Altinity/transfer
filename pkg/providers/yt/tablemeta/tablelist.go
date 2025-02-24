@@ -3,7 +3,7 @@ package tablemeta
 import (
 	"context"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/library/go/core/xerrors"
 	"github.com/dustin/go-humanize"
 	"go.ytsaurus.tech/library/go/core/log"
 	"go.ytsaurus.tech/yt/go/ypath"

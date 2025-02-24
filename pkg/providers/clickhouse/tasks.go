@@ -1,13 +1,13 @@
 package clickhouse
 
 import (
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/abstract/coordinator"
-	dp_model "github.com/doublecloud/transfer/pkg/abstract/model"
-	"github.com/doublecloud/transfer/pkg/middlewares"
-	"github.com/doublecloud/transfer/pkg/providers/clickhouse/model"
-	sink_factory "github.com/doublecloud/transfer/pkg/sink"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract/coordinator"
+	dp_model "github.com/altinity/transfer/pkg/abstract/model"
+	"github.com/altinity/transfer/pkg/middlewares"
+	"github.com/altinity/transfer/pkg/providers/clickhouse/model"
+	sink_factory "github.com/altinity/transfer/pkg/sink"
 )
 
 func (p *Provider) loadClickHouseSchema() error {

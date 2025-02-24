@@ -3,7 +3,7 @@ package generic
 import (
 	"strings"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/library/go/core/xerrors"
 	"github.com/goccy/go-json"
 )
 

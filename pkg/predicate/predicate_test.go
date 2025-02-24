@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/doublecloud/transfer/internal/logger"
+	"github.com/altinity/transfer/internal/logger"
 	"github.com/stretchr/testify/require"
 )
 

@@ -1,8 +1,8 @@
 package mysql
 
 import (
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/errors/coded"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/errors/coded"
 	"github.com/go-sql-driver/mysql"
 )
 

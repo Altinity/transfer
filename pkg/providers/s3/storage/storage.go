@@ -5,14 +5,14 @@ import (
 
 	aws_s3 "github.com/aws/aws-sdk-go/service/s3"
 	"github.com/aws/aws-sdk-go/service/s3/s3iface"
-	"github.com/doublecloud/transfer/library/go/core/metrics"
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/predicate"
-	"github.com/doublecloud/transfer/pkg/providers/s3"
-	"github.com/doublecloud/transfer/pkg/providers/s3/pusher"
-	"github.com/doublecloud/transfer/pkg/providers/s3/reader"
-	"github.com/doublecloud/transfer/pkg/stats"
+	"github.com/altinity/transfer/library/go/core/metrics"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/predicate"
+	"github.com/altinity/transfer/pkg/providers/s3"
+	"github.com/altinity/transfer/pkg/providers/s3/pusher"
+	"github.com/altinity/transfer/pkg/providers/s3/reader"
+	"github.com/altinity/transfer/pkg/stats"
 	"go.ytsaurus.tech/library/go/core/log"
 )
 

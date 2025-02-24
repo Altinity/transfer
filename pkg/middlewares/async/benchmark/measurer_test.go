@@ -6,14 +6,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/library/go/core/metrics/solomon"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/middlewares"
-	"github.com/doublecloud/transfer/pkg/middlewares/async"
-	"github.com/doublecloud/transfer/pkg/middlewares/async/bufferer"
-	"github.com/doublecloud/transfer/pkg/stats"
-	"github.com/doublecloud/transfer/tests/canon/reference"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/library/go/core/metrics/solomon"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/middlewares"
+	"github.com/altinity/transfer/pkg/middlewares/async"
+	"github.com/altinity/transfer/pkg/middlewares/async/bufferer"
+	"github.com/altinity/transfer/pkg/stats"
+	"github.com/altinity/transfer/tests/canon/reference"
 	"github.com/stretchr/testify/require"
 )
 

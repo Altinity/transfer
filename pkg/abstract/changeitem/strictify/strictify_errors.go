@@ -1,8 +1,8 @@
 package strictify
 
 import (
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract/changeitem"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract/changeitem"
 	"go.ytsaurus.tech/yt/go/schema"
 )
 

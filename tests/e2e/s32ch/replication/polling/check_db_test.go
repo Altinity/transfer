@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/doublecloud/transfer/pkg/abstract"
-	dp_model "github.com/doublecloud/transfer/pkg/abstract/model"
-	"github.com/doublecloud/transfer/pkg/providers/clickhouse/model"
-	"github.com/doublecloud/transfer/pkg/providers/s3"
-	"github.com/doublecloud/transfer/tests/helpers"
+	"github.com/altinity/transfer/pkg/abstract"
+	dp_model "github.com/altinity/transfer/pkg/abstract/model"
+	"github.com/altinity/transfer/pkg/providers/clickhouse/model"
+	"github.com/altinity/transfer/pkg/providers/s3"
+	"github.com/altinity/transfer/tests/helpers"
 	"github.com/stretchr/testify/require"
 )
 

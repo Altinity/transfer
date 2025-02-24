@@ -4,16 +4,16 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/abstract/model"
-	"github.com/doublecloud/transfer/pkg/errors"
-	"github.com/doublecloud/transfer/pkg/errors/categories"
-	"github.com/doublecloud/transfer/pkg/middlewares"
-	"github.com/doublecloud/transfer/pkg/providers/postgres"
-	"github.com/doublecloud/transfer/pkg/sink"
-	"github.com/doublecloud/transfer/pkg/worker/tasks/cleanup"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract/model"
+	"github.com/altinity/transfer/pkg/errors"
+	"github.com/altinity/transfer/pkg/errors/categories"
+	"github.com/altinity/transfer/pkg/middlewares"
+	"github.com/altinity/transfer/pkg/providers/postgres"
+	"github.com/altinity/transfer/pkg/sink"
+	"github.com/altinity/transfer/pkg/worker/tasks/cleanup"
 )
 
 // CleanupSinker cleans up the sinker when non-incremental transfer is

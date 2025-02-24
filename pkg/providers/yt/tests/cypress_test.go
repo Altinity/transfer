@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	yt_provider "github.com/doublecloud/transfer/pkg/providers/yt"
-	"github.com/doublecloud/transfer/pkg/providers/yt/recipe"
+	yt_provider "github.com/altinity/transfer/pkg/providers/yt"
+	"github.com/altinity/transfer/pkg/providers/yt/recipe"
 	"github.com/stretchr/testify/require"
 	"go.ytsaurus.tech/yt/go/ypath"
 	commonyt "go.ytsaurus.tech/yt/go/yt"

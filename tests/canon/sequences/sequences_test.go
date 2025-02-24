@@ -7,13 +7,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/abstract/model"
-	pgcommon "github.com/doublecloud/transfer/pkg/providers/postgres"
-	"github.com/doublecloud/transfer/tests/canon"
-	"github.com/doublecloud/transfer/tests/canon/validator"
-	"github.com/doublecloud/transfer/tests/helpers"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract/model"
+	pgcommon "github.com/altinity/transfer/pkg/providers/postgres"
+	"github.com/altinity/transfer/tests/canon"
+	"github.com/altinity/transfer/tests/canon/validator"
+	"github.com/altinity/transfer/tests/helpers"
 	"github.com/stretchr/testify/require"
 )
 

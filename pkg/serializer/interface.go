@@ -1,7 +1,7 @@
 package serializer
 
 import (
-	"github.com/doublecloud/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract"
 )
 
 type Serializer interface {

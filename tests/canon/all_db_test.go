@@ -3,13 +3,13 @@ package canon
 import (
 	"testing"
 
-	"github.com/doublecloud/transfer/pkg/providers/clickhouse"
-	"github.com/doublecloud/transfer/pkg/providers/mongo"
-	"github.com/doublecloud/transfer/pkg/providers/mysql"
-	"github.com/doublecloud/transfer/pkg/providers/postgres"
-	"github.com/doublecloud/transfer/pkg/providers/ydb"
-	"github.com/doublecloud/transfer/pkg/providers/yt"
-	"github.com/doublecloud/transfer/tests/canon/validator"
+	"github.com/altinity/transfer/pkg/providers/clickhouse"
+	"github.com/altinity/transfer/pkg/providers/mongo"
+	"github.com/altinity/transfer/pkg/providers/mysql"
+	"github.com/altinity/transfer/pkg/providers/postgres"
+	"github.com/altinity/transfer/pkg/providers/ydb"
+	"github.com/altinity/transfer/pkg/providers/yt"
+	"github.com/altinity/transfer/tests/canon/validator"
 	"github.com/stretchr/testify/require"
 )
 

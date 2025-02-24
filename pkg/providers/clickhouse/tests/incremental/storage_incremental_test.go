@@ -4,12 +4,12 @@ import (
 	"context"
 	"testing"
 
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/abstract/model"
-	"github.com/doublecloud/transfer/pkg/providers/clickhouse"
-	"github.com/doublecloud/transfer/pkg/providers/clickhouse/conn"
-	chrecipe "github.com/doublecloud/transfer/pkg/providers/clickhouse/recipe"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract/model"
+	"github.com/altinity/transfer/pkg/providers/clickhouse"
+	"github.com/altinity/transfer/pkg/providers/clickhouse/conn"
+	chrecipe "github.com/altinity/transfer/pkg/providers/clickhouse/recipe"
 	"github.com/stretchr/testify/require"
 )
 

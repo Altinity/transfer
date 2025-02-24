@@ -1,9 +1,9 @@
 package validate
 
 import (
-	"github.com/doublecloud/transfer/cmd/trcli/config"
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/cmd/trcli/config"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/library/go/core/xerrors"
 	"github.com/spf13/cobra"
 )
 

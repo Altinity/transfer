@@ -7,11 +7,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/doublecloud/transfer/library/go/test/yatest"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	debeziumcommon "github.com/doublecloud/transfer/pkg/debezium/common"
-	"github.com/doublecloud/transfer/pkg/debezium/testutil"
-	"github.com/doublecloud/transfer/tests/helpers"
+	"github.com/altinity/transfer/library/go/test/yatest"
+	"github.com/altinity/transfer/pkg/abstract"
+	debeziumcommon "github.com/altinity/transfer/pkg/debezium/common"
+	"github.com/altinity/transfer/pkg/debezium/testutil"
+	"github.com/altinity/transfer/tests/helpers"
 	"github.com/jackc/pgx/v4/pgxpool"
 	"github.com/stretchr/testify/require"
 )

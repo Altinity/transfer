@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	debeziumcommon "github.com/doublecloud/transfer/pkg/debezium/common"
-	"github.com/doublecloud/transfer/pkg/util"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract"
+	debeziumcommon "github.com/altinity/transfer/pkg/debezium/common"
+	"github.com/altinity/transfer/pkg/util"
 	ytschema "go.ytsaurus.tech/yt/go/schema"
 )
 

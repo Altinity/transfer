@@ -3,10 +3,10 @@ package clickhouse
 import (
 	"context"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	dp_model "github.com/doublecloud/transfer/pkg/abstract/model"
-	"github.com/doublecloud/transfer/pkg/providers/clickhouse/model"
-	"github.com/doublecloud/transfer/pkg/transformer/registry/dbt"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	dp_model "github.com/altinity/transfer/pkg/abstract/model"
+	"github.com/altinity/transfer/pkg/providers/clickhouse/model"
+	"github.com/altinity/transfer/pkg/transformer/registry/dbt"
 )
 
 func init() {

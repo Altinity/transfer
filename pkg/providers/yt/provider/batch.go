@@ -1,8 +1,8 @@
 package provider
 
 import (
-	"github.com/doublecloud/transfer/pkg/base"
-	"github.com/doublecloud/transfer/pkg/providers/yt/provider/table"
+	"github.com/altinity/transfer/pkg/base"
+	"github.com/altinity/transfer/pkg/providers/yt/provider/table"
 )
 
 type lazyYSON struct {

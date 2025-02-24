@@ -5,7 +5,7 @@ This adapter is ideal for scenarios where you need to synchronize data from an A
 
 We support source airbyte [connectors](https://docs.airbyte.com/category/sources)
 
-This adapter enables integration between [Airbyte](https://docs.airbyte.com/using-airbyte/core-concepts/) and [Transfer](https://github.com/doublecloud/transfer), facilitating the translation of Airbyte's core concepts into Transfer-compatible constructs for streamlined data movement and transformations.
+This adapter enables integration between [Airbyte](https://docs.airbyte.com/using-airbyte/core-concepts/) and [Transfer](https://github.com/altinity/transfer), facilitating the translation of Airbyte's core concepts into Transfer-compatible constructs for streamlined data movement and transformations.
 
 ## Core Concepts Mapping
 
@@ -28,7 +28,7 @@ The adapter maps Airbyte concepts to Transfer as described below:
 
 # Airbyte Adapter for Transfer
 
-This adapter enables integration between [Airbyte](https://docs.airbyte.com/using-airbyte/core-concepts/) and [Transfer](https://github.com/doublecloud/transfer), facilitating the translation of Airbyte's core concepts into Transfer-compatible constructs for streamlined data movement and transformations.
+This adapter enables integration between [Airbyte](https://docs.airbyte.com/using-airbyte/core-concepts/) and [Transfer](https://github.com/altinity/transfer), facilitating the translation of Airbyte's core concepts into Transfer-compatible constructs for streamlined data movement and transformations.
 
 ## Configuration
 

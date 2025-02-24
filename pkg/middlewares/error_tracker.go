@@ -1,11 +1,11 @@
 package middlewares
 
 import (
-	"github.com/doublecloud/transfer/library/go/core/metrics"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/errors"
-	"github.com/doublecloud/transfer/pkg/errors/categories"
-	"github.com/doublecloud/transfer/pkg/stats"
+	"github.com/altinity/transfer/library/go/core/metrics"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/errors"
+	"github.com/altinity/transfer/pkg/errors/categories"
+	"github.com/altinity/transfer/pkg/stats"
 )
 
 // ErrorTracker do nothing except tracking error / success pushes into metrics

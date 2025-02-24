@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/abstract/model"
-	mongocommon "github.com/doublecloud/transfer/pkg/providers/mongo"
-	"github.com/doublecloud/transfer/tests/canon/validator"
-	"github.com/doublecloud/transfer/tests/helpers"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract/model"
+	mongocommon "github.com/altinity/transfer/pkg/providers/mongo"
+	"github.com/altinity/transfer/tests/canon/validator"
+	"github.com/altinity/transfer/tests/helpers"
 	"github.com/stretchr/testify/require"
 )
 

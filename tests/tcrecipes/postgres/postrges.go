@@ -10,7 +10,7 @@ import (
 	"strings"
 
 	"github.com/docker/go-connections/nat"
-	"github.com/doublecloud/transfer/library/go/slices"
+	"github.com/altinity/transfer/library/go/slices"
 	"github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/wait"
 )

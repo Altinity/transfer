@@ -6,13 +6,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/abstract/model"
-	pg_provider "github.com/doublecloud/transfer/pkg/providers/postgres"
-	yt_provider "github.com/doublecloud/transfer/pkg/providers/yt"
-	"github.com/doublecloud/transfer/tests/helpers"
-	yt_helpers "github.com/doublecloud/transfer/tests/helpers/yt"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract/model"
+	pg_provider "github.com/altinity/transfer/pkg/providers/postgres"
+	yt_provider "github.com/altinity/transfer/pkg/providers/yt"
+	"github.com/altinity/transfer/tests/helpers"
+	yt_helpers "github.com/altinity/transfer/tests/helpers/yt"
 	"github.com/stretchr/testify/require"
 )
 

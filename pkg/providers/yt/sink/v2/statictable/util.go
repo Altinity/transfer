@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/doublecloud/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract"
 	"go.ytsaurus.tech/yt/go/schema"
 	"go.ytsaurus.tech/yt/go/ypath"
 	"go.ytsaurus.tech/yt/go/yson"

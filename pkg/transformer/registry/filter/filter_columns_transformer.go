@@ -5,10 +5,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/transformer"
-	"github.com/doublecloud/transfer/pkg/util/set"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/transformer"
+	"github.com/altinity/transfer/pkg/util/set"
 	"go.ytsaurus.tech/library/go/core/log"
 )
 

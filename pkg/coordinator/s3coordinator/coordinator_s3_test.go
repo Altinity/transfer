@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/doublecloud/transfer/pkg/abstract/coordinator"
-	"github.com/doublecloud/transfer/pkg/abstract/model"
+	"github.com/altinity/transfer/pkg/abstract/coordinator"
+	"github.com/altinity/transfer/pkg/abstract/model"
 	"github.com/stretchr/testify/require"
 )
 

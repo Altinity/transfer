@@ -1,8 +1,8 @@
 package typefitting
 
 import (
-	"github.com/doublecloud/transfer/pkg/abstract/model"
-	chrecipe "github.com/doublecloud/transfer/pkg/providers/clickhouse/recipe"
+	"github.com/altinity/transfer/pkg/abstract/model"
+	chrecipe "github.com/altinity/transfer/pkg/providers/clickhouse/recipe"
 )
 
 var (

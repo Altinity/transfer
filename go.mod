@@ -1,4 +1,4 @@
-module github.com/doublecloud/transfer
+module github.com/altinity/transfer
 
 go 1.22.5
 

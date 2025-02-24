@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/library/go/slices"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/providers/clickhouse/async/model/db"
-	"github.com/doublecloud/transfer/pkg/providers/clickhouse/columntypes"
-	chsink "github.com/doublecloud/transfer/pkg/providers/clickhouse/schema"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/library/go/slices"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/providers/clickhouse/async/model/db"
+	"github.com/altinity/transfer/pkg/providers/clickhouse/columntypes"
+	chsink "github.com/altinity/transfer/pkg/providers/clickhouse/schema"
 	"go.ytsaurus.tech/library/go/core/log"
 )
 

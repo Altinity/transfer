@@ -4,8 +4,8 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/doublecloud/transfer/library/go/slices"
-	"github.com/doublecloud/transfer/pkg/abstract"
+	"github.com/altinity/transfer/library/go/slices"
+	"github.com/altinity/transfer/pkg/abstract"
 	"go.ytsaurus.tech/library/go/core/log"
 )
 

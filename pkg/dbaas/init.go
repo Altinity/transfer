@@ -1,6 +1,6 @@
 package dbaas
 
-import "github.com/doublecloud/transfer/library/go/core/xerrors"
+import "github.com/altinity/transfer/library/go/core/xerrors"
 
 var current ResolverFactory
 

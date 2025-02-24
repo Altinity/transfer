@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/parsequeue"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/parsequeue"
 	"go.ytsaurus.tech/library/go/core/log"
 )
 

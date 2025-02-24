@@ -1,6 +1,6 @@
 package coordinator
 
-import "github.com/doublecloud/transfer/pkg/abstract/model"
+import "github.com/altinity/transfer/pkg/abstract/model"
 
 // Editor is obsolete interface to update entities on coordinator
 //

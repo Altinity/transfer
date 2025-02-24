@@ -3,8 +3,8 @@ package queue
 import (
 	"testing"
 
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/abstract/model"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract/model"
 )
 
 func TestNativeBatcher(t *testing.T) {

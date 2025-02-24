@@ -1,7 +1,7 @@
 package util
 
 import (
-	"github.com/doublecloud/transfer/library/go/test/yatest"
+	"github.com/altinity/transfer/library/go/test/yatest"
 )
 
 func MakeOutputPath(relativePath string) string {

@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/pkg/util/set"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/pkg/util/set"
 )
 
 // Contract for parameters: all possible keys are present

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/doublecloud/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract"
 	"go.ytsaurus.tech/yt/go/schema"
 )
 

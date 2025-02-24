@@ -3,9 +3,9 @@ package tests
 import (
 	"testing"
 
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/pkg/providers/postgres"
-	"github.com/doublecloud/transfer/pkg/providers/postgres/pgrecipe"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/pkg/providers/postgres"
+	"github.com/altinity/transfer/pkg/providers/postgres/pgrecipe"
 	"github.com/stretchr/testify/require"
 )
 

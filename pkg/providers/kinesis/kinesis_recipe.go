@@ -7,8 +7,8 @@ import (
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/kinesis"
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	tc_localstack "github.com/doublecloud/transfer/tests/tcrecipes/localstack"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	tc_localstack "github.com/altinity/transfer/tests/tcrecipes/localstack"
 	"github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/network"
 )

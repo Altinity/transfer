@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/doublecloud/transfer/internal/logger"
-	debeziumparameters "github.com/doublecloud/transfer/pkg/debezium/parameters"
-	confluentsrmock "github.com/doublecloud/transfer/tests/helpers/confluent_schema_registry_mock"
+	"github.com/altinity/transfer/internal/logger"
+	debeziumparameters "github.com/altinity/transfer/pkg/debezium/parameters"
+	confluentsrmock "github.com/altinity/transfer/tests/helpers/confluent_schema_registry_mock"
 	"github.com/stretchr/testify/require"
 )
 

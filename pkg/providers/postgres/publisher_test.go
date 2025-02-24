@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/providers/postgres/dblog"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/providers/postgres/dblog"
 	"github.com/stretchr/testify/require"
 )
 

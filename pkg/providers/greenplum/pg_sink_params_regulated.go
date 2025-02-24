@@ -3,7 +3,7 @@ package greenplum
 import (
 	"time"
 
-	"github.com/doublecloud/transfer/pkg/abstract/model"
+	"github.com/altinity/transfer/pkg/abstract/model"
 )
 
 type PgSinkParamsRegulated struct {

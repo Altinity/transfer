@@ -12,12 +12,12 @@ import (
 	"time"
 
 	"github.com/cenkalti/backoff/v4"
-	"github.com/doublecloud/transfer/library/go/core/metrics"
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/abstract/model"
-	"github.com/doublecloud/transfer/pkg/credentials"
-	"github.com/doublecloud/transfer/pkg/format"
+	"github.com/altinity/transfer/library/go/core/metrics"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract/model"
+	"github.com/altinity/transfer/pkg/credentials"
+	"github.com/altinity/transfer/pkg/format"
 	"go.ytsaurus.tech/library/go/core/log"
 )
 

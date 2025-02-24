@@ -4,12 +4,12 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/doublecloud/transfer/pkg/abstract/changeitem"
-	"github.com/doublecloud/transfer/pkg/providers/clickhouse/columntypes"
-	"github.com/doublecloud/transfer/pkg/providers/clickhouse/httpuploader"
-	"github.com/doublecloud/transfer/pkg/providers/mysql"
-	"github.com/doublecloud/transfer/pkg/providers/postgres"
-	"github.com/doublecloud/transfer/tests/canon"
+	"github.com/altinity/transfer/pkg/abstract/changeitem"
+	"github.com/altinity/transfer/pkg/providers/clickhouse/columntypes"
+	"github.com/altinity/transfer/pkg/providers/clickhouse/httpuploader"
+	"github.com/altinity/transfer/pkg/providers/mysql"
+	"github.com/altinity/transfer/pkg/providers/postgres"
+	"github.com/altinity/transfer/tests/canon"
 	"github.com/stretchr/testify/require"
 )
 

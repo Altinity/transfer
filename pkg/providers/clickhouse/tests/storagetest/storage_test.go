@@ -5,10 +5,10 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/providers/clickhouse"
-	chrecipe "github.com/doublecloud/transfer/pkg/providers/clickhouse/recipe"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/providers/clickhouse"
+	chrecipe "github.com/altinity/transfer/pkg/providers/clickhouse/recipe"
 	"github.com/stretchr/testify/require"
 )
 

@@ -9,14 +9,14 @@ import (
 
 	"github.com/Azure/azure-amqp-common-go/v3/sas"
 	eventhubs "github.com/Azure/azure-event-hubs-go/v3"
-	"github.com/doublecloud/transfer/library/go/core/metrics"
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/abstract/model"
-	"github.com/doublecloud/transfer/pkg/format"
-	"github.com/doublecloud/transfer/pkg/functions"
-	"github.com/doublecloud/transfer/pkg/parsers"
-	"github.com/doublecloud/transfer/pkg/stats"
+	"github.com/altinity/transfer/library/go/core/metrics"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract/model"
+	"github.com/altinity/transfer/pkg/format"
+	"github.com/altinity/transfer/pkg/functions"
+	"github.com/altinity/transfer/pkg/parsers"
+	"github.com/altinity/transfer/pkg/stats"
 	"go.ytsaurus.tech/library/go/core/log"
 )
 

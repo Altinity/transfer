@@ -8,10 +8,10 @@ import (
 	"time"
 
 	"github.com/cenkalti/backoff/v4"
-	"github.com/doublecloud/transfer/pkg/parsers"
-	"github.com/doublecloud/transfer/pkg/schemaregistry/confluent"
-	"github.com/doublecloud/transfer/pkg/util"
-	"github.com/doublecloud/transfer/pkg/util/set"
+	"github.com/altinity/transfer/pkg/parsers"
+	"github.com/altinity/transfer/pkg/schemaregistry/confluent"
+	"github.com/altinity/transfer/pkg/util"
+	"github.com/altinity/transfer/pkg/util/set"
 	"go.ytsaurus.tech/library/go/core/log"
 )
 

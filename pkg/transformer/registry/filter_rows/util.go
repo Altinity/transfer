@@ -5,9 +5,9 @@ import (
 	"math"
 	"time"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/library/go/yandex/cloud/filter"
-	"github.com/doublecloud/transfer/pkg/util/set"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/library/go/yandex/cloud/filter"
+	"github.com/altinity/transfer/pkg/util/set"
 )
 
 var errIntOverflow = xerrors.Errorf("Provided value overflows int64")

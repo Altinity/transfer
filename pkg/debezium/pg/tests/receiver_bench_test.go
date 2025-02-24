@@ -3,11 +3,11 @@ package tests
 import (
 	"testing"
 
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/debezium"
-	debeziumcommon "github.com/doublecloud/transfer/pkg/debezium/common"
-	debeziumparameters "github.com/doublecloud/transfer/pkg/debezium/parameters"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/debezium"
+	debeziumcommon "github.com/altinity/transfer/pkg/debezium/common"
+	debeziumparameters "github.com/altinity/transfer/pkg/debezium/parameters"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap/zapcore"
 )

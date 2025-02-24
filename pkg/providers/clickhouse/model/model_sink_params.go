@@ -3,7 +3,7 @@ package model
 import (
 	"time"
 
-	"github.com/doublecloud/transfer/pkg/abstract/model"
+	"github.com/altinity/transfer/pkg/abstract/model"
 	"github.com/dustin/go-humanize"
 )
 

@@ -5,12 +5,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/providers/clickhouse/conn"
-	"github.com/doublecloud/transfer/pkg/providers/clickhouse/model"
-	chrecipe "github.com/doublecloud/transfer/pkg/providers/clickhouse/recipe"
-	"github.com/doublecloud/transfer/tests/helpers"
-	proxy "github.com/doublecloud/transfer/tests/helpers/http_proxy"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/providers/clickhouse/conn"
+	"github.com/altinity/transfer/pkg/providers/clickhouse/model"
+	chrecipe "github.com/altinity/transfer/pkg/providers/clickhouse/recipe"
+	"github.com/altinity/transfer/tests/helpers"
+	proxy "github.com/altinity/transfer/tests/helpers/http_proxy"
 	"github.com/stretchr/testify/require"
 )
 

@@ -3,7 +3,7 @@ package mysql
 import (
 	"fmt"
 
-	"github.com/doublecloud/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract"
 )
 
 type schematizedRowsEvent struct {

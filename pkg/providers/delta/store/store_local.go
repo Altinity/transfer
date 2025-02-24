@@ -6,9 +6,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/library/go/slices"
-	"github.com/doublecloud/transfer/pkg/util/iter"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/library/go/slices"
+	"github.com/altinity/transfer/pkg/util/iter"
 )
 
 var (

@@ -8,12 +8,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/internal/metrics"
-	"github.com/doublecloud/transfer/library/go/test/canon"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/parsers"
-	"github.com/doublecloud/transfer/pkg/stats"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/internal/metrics"
+	"github.com/altinity/transfer/library/go/test/canon"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/parsers"
+	"github.com/altinity/transfer/pkg/stats"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/exp/maps"
 )

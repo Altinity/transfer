@@ -3,8 +3,8 @@ package unpacker
 import (
 	"encoding/json"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/util"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/util"
 )
 
 type IncludeSchema struct {

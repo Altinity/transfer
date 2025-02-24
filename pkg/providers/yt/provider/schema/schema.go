@@ -3,11 +3,11 @@ package schema
 import (
 	"context"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	basetypes "github.com/doublecloud/transfer/pkg/base/types"
-	ytcommon "github.com/doublecloud/transfer/pkg/providers/yt"
-	"github.com/doublecloud/transfer/pkg/providers/yt/provider/table"
-	"github.com/doublecloud/transfer/pkg/providers/yt/provider/types"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	basetypes "github.com/altinity/transfer/pkg/base/types"
+	ytcommon "github.com/altinity/transfer/pkg/providers/yt"
+	"github.com/altinity/transfer/pkg/providers/yt/provider/table"
+	"github.com/altinity/transfer/pkg/providers/yt/provider/types"
 	"go.ytsaurus.tech/yt/go/schema"
 	"go.ytsaurus.tech/yt/go/yt"
 )

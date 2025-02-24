@@ -21,7 +21,7 @@ This Helm chart deploys a one-time data upload job or continuous replication ser
 To install the chart, run the following command:
 
 ```bash
-helm pull oci://ghcr.io/doublecloud/transfer-helm/transfer
+helm pull oci://docker.io/altinity/transfer-helm/transfer
 ```
 
 For example:

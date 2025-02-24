@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/pkg/providers/elastic"
-	"github.com/doublecloud/transfer/pkg/util/jsonx"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/pkg/providers/elastic"
+	"github.com/altinity/transfer/pkg/util/jsonx"
 	"github.com/elastic/go-elasticsearch/v7"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/xerrors"

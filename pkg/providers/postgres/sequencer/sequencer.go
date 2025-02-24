@@ -3,8 +3,8 @@ package sequencer
 import (
 	"sync"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract"
 )
 
 // Sequencer takes items and updates progressInfo

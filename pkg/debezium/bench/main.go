@@ -8,11 +8,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	serializer "github.com/doublecloud/transfer/pkg/serializer/queue"
-	confluentsrmock "github.com/doublecloud/transfer/tests/helpers/confluent_schema_registry_mock"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract"
+	serializer "github.com/altinity/transfer/pkg/serializer/queue"
+	confluentsrmock "github.com/altinity/transfer/tests/helpers/confluent_schema_registry_mock"
 )
 
 func getChangeItems(fullFilename string, limit int) ([]abstract.ChangeItem, error) {

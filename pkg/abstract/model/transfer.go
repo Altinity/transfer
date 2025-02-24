@@ -3,10 +3,10 @@ package model
 import (
 	"encoding/json"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	transformers_registry "github.com/doublecloud/transfer/pkg/transformer"
-	"github.com/doublecloud/transfer/pkg/util"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract"
+	transformers_registry "github.com/altinity/transfer/pkg/transformer"
+	"github.com/altinity/transfer/pkg/util"
 )
 
 type Transfer struct {

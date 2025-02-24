@@ -1,6 +1,6 @@
 package mysql
 
-import "github.com/doublecloud/transfer/pkg/abstract"
+import "github.com/altinity/transfer/pkg/abstract"
 
 type MysqlStorageParams struct {
 	ClusterID   string

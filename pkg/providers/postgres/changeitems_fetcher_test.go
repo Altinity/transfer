@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/library/go/core/metrics/solomon"
-	"github.com/doublecloud/transfer/pkg/stats"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/library/go/core/metrics/solomon"
+	"github.com/altinity/transfer/pkg/stats"
 	"github.com/jackc/pgtype"
 	"github.com/stretchr/testify/require"
 )

@@ -1,8 +1,8 @@
 package model
 
 import (
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/dbaas"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/dbaas"
 )
 
 func ResolvePassword(clusterID, user, password string) (string, error) {

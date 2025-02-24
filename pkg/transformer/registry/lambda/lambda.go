@@ -3,12 +3,12 @@ package lambda
 import (
 	"fmt"
 
-	"github.com/doublecloud/transfer/library/go/core/metrics/solomon"
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/abstract/model"
-	"github.com/doublecloud/transfer/pkg/functions"
-	"github.com/doublecloud/transfer/pkg/transformer"
+	"github.com/altinity/transfer/library/go/core/metrics/solomon"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract/model"
+	"github.com/altinity/transfer/pkg/functions"
+	"github.com/altinity/transfer/pkg/transformer"
 	"go.ytsaurus.tech/library/go/core/log"
 )
 

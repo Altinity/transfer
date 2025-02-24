@@ -3,13 +3,13 @@ package async
 import (
 	"testing"
 
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/library/go/core/metrics/nop"
-	"github.com/doublecloud/transfer/pkg/abstract/changeitem"
-	"github.com/doublecloud/transfer/pkg/abstract/model"
-	"github.com/doublecloud/transfer/pkg/errors/coded"
-	"github.com/doublecloud/transfer/pkg/providers"
-	chrecipe "github.com/doublecloud/transfer/pkg/providers/clickhouse/recipe"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/library/go/core/metrics/nop"
+	"github.com/altinity/transfer/pkg/abstract/changeitem"
+	"github.com/altinity/transfer/pkg/abstract/model"
+	"github.com/altinity/transfer/pkg/errors/coded"
+	"github.com/altinity/transfer/pkg/providers"
+	chrecipe "github.com/altinity/transfer/pkg/providers/clickhouse/recipe"
 	"github.com/stretchr/testify/require"
 	"go.ytsaurus.tech/yt/go/schema"
 )

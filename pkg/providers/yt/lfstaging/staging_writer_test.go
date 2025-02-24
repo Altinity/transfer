@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/doublecloud/transfer/pkg/providers/yt/recipe"
+	"github.com/altinity/transfer/pkg/providers/yt/recipe"
 	"github.com/stretchr/testify/require"
 )
 

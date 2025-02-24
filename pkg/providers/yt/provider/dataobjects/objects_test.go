@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/pkg/providers/yt"
-	"github.com/doublecloud/transfer/pkg/providers/yt/tablemeta"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/pkg/providers/yt"
+	"github.com/altinity/transfer/pkg/providers/yt/tablemeta"
 	"github.com/stretchr/testify/require"
 )
 

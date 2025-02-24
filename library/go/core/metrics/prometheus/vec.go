@@ -1,9 +1,9 @@
 package prometheus
 
 import (
-	"github.com/doublecloud/transfer/library/go/core/metrics"
-	"github.com/doublecloud/transfer/library/go/core/metrics/internal/pkg/metricsutil"
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/library/go/core/metrics"
+	"github.com/altinity/transfer/library/go/core/metrics/internal/pkg/metricsutil"
+	"github.com/altinity/transfer/library/go/core/xerrors"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

@@ -1,9 +1,9 @@
 package fallback
 
 import (
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/abstract/typesystem"
-	"github.com/doublecloud/transfer/pkg/providers/s3"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract/typesystem"
+	"github.com/altinity/transfer/pkg/providers/s3"
 )
 
 func init() {

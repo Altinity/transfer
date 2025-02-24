@@ -10,14 +10,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/debezium"
-	debeziumcommon "github.com/doublecloud/transfer/pkg/debezium/common"
-	debeziumparameters "github.com/doublecloud/transfer/pkg/debezium/parameters"
-	"github.com/doublecloud/transfer/pkg/debezium/typeutil"
-	pgcommon "github.com/doublecloud/transfer/pkg/providers/postgres"
-	"github.com/doublecloud/transfer/pkg/util/jsonx"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/debezium"
+	debeziumcommon "github.com/altinity/transfer/pkg/debezium/common"
+	debeziumparameters "github.com/altinity/transfer/pkg/debezium/parameters"
+	"github.com/altinity/transfer/pkg/debezium/typeutil"
+	pgcommon "github.com/altinity/transfer/pkg/providers/postgres"
+	"github.com/altinity/transfer/pkg/util/jsonx"
 	"github.com/stretchr/testify/require"
 )
 

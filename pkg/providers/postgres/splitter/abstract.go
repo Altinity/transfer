@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/doublecloud/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract"
 )
 
 type postgresStorage interface {

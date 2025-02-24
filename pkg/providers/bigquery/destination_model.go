@@ -1,8 +1,8 @@
 package bigquery
 
 import (
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/abstract/model"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract/model"
 )
 
 var _ model.Destination = (*BigQueryDestination)(nil)

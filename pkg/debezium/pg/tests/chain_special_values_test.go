@@ -7,12 +7,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/library/go/test/canon"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/debezium"
-	debeziumparameters "github.com/doublecloud/transfer/pkg/debezium/parameters"
-	pgcommon "github.com/doublecloud/transfer/pkg/providers/postgres"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/library/go/test/canon"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/debezium"
+	debeziumparameters "github.com/altinity/transfer/pkg/debezium/parameters"
+	pgcommon "github.com/altinity/transfer/pkg/providers/postgres"
 	"github.com/stretchr/testify/require"
 	ytschema "go.ytsaurus.tech/yt/go/schema"
 )

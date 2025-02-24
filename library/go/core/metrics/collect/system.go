@@ -1,4 +1,4 @@
-// dashboard generator for these metrics can be found at: github.com/doublecloud/transfer/arcadia/library/go/yandex/monitoring-dashboards
+// dashboard generator for these metrics can be found at: github.com/altinity/transfer/arcadia/library/go/yandex/monitoring-dashboards
 package collect
 
 import (
@@ -8,8 +8,8 @@ import (
 	"runtime/debug"
 	"time"
 
-	"github.com/doublecloud/transfer/library/go/core/buildinfo"
-	"github.com/doublecloud/transfer/library/go/core/metrics"
+	"github.com/altinity/transfer/library/go/core/buildinfo"
+	"github.com/altinity/transfer/library/go/core/metrics"
 	"github.com/prometheus/procfs"
 )
 

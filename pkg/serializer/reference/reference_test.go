@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/doublecloud/transfer/library/go/test/canon"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/serializer"
-	e2e "github.com/doublecloud/transfer/tests/canon"
+	"github.com/altinity/transfer/library/go/test/canon"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/serializer"
+	e2e "github.com/altinity/transfer/tests/canon"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/exp/slices"
 )

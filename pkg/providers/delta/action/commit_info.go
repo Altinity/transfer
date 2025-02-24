@@ -1,7 +1,7 @@
 package action
 
 import (
-	"github.com/doublecloud/transfer/pkg/util"
+	"github.com/altinity/transfer/pkg/util"
 )
 
 type CommitMarker interface {

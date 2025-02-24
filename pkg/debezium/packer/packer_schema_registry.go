@@ -5,10 +5,10 @@ import (
 	"encoding/binary"
 	"encoding/json"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/schemaregistry/confluent"
-	"github.com/doublecloud/transfer/pkg/schemaregistry/format"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/schemaregistry/confluent"
+	"github.com/altinity/transfer/pkg/schemaregistry/format"
 )
 
 type PackerSchemaRegistry struct {

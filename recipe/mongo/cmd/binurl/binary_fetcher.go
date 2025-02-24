@@ -9,10 +9,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/library/go/slices"
-	"github.com/doublecloud/transfer/pkg/util/cli"
-	"github.com/doublecloud/transfer/recipe/mongo/pkg/binurl"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/library/go/slices"
+	"github.com/altinity/transfer/pkg/util/cli"
+	"github.com/altinity/transfer/recipe/mongo/pkg/binurl"
 )
 
 var (

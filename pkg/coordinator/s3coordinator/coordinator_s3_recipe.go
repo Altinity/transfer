@@ -9,10 +9,10 @@ import (
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/tests/tcrecipes"
-	"github.com/doublecloud/transfer/tests/tcrecipes/objectstorage"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/tests/tcrecipes"
+	"github.com/altinity/transfer/tests/tcrecipes/objectstorage"
 	"go.ytsaurus.tech/library/go/core/log"
 )
 

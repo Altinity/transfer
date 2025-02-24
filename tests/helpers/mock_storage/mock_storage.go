@@ -3,7 +3,7 @@ package mockstorage
 import (
 	"context"
 
-	"github.com/doublecloud/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract"
 )
 
 type MockStorage struct {

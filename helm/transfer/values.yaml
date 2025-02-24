@@ -1,5 +1,5 @@
 image:
-  repository: ghcr.io/doublecloud/transfer
+  repository: docker.io/altinity/transfer
 
 resources:
   requests:

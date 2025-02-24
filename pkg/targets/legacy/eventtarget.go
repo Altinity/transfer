@@ -3,13 +3,13 @@ package legacy
 import (
 	"runtime"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/abstract/model"
-	"github.com/doublecloud/transfer/pkg/base"
-	"github.com/doublecloud/transfer/pkg/base/events"
-	"github.com/doublecloud/transfer/pkg/util/pool"
-	"github.com/doublecloud/transfer/pkg/worker/tasks/cleanup"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract/model"
+	"github.com/altinity/transfer/pkg/base"
+	"github.com/altinity/transfer/pkg/base/events"
+	"github.com/altinity/transfer/pkg/util/pool"
+	"github.com/altinity/transfer/pkg/worker/tasks/cleanup"
 	"go.ytsaurus.tech/library/go/core/log"
 )
 

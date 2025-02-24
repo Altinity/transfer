@@ -3,8 +3,8 @@ package cascadedeletespertbl
 import (
 	"testing"
 
-	test "github.com/doublecloud/transfer/tests/e2e/mysql2mysql/cascade_deletes/common"
-	"github.com/doublecloud/transfer/tests/helpers"
+	test "github.com/altinity/transfer/tests/e2e/mysql2mysql/cascade_deletes/common"
+	"github.com/altinity/transfer/tests/helpers"
 	"github.com/stretchr/testify/require"
 )
 

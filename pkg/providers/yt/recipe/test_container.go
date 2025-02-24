@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/library/go/core/xerrors"
 	"github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/wait"
 	"go.ytsaurus.tech/yt/go/yt"
@@ -13,7 +13,7 @@ import (
 )
 
 const (
-	defaultImage    = "ghcr.io/ytsaurus/local-nightly:dev-2024-10-16-50e2ea53cfec3c9973e5b065f839e05a73506945"
+	defaultImage    = "docker.io/ytsaurus/local-nightly:dev-2024-10-16-50e2ea53cfec3c9973e5b065f839e05a73506945"
 	containerPort   = "80/tcp"
 	DefaultUser     = "admin"
 	DefaultPassword = "password"

@@ -1,10 +1,10 @@
 package yt
 
 import (
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/abstract/model"
-	"github.com/doublecloud/transfer/pkg/config/env"
-	ytclient "github.com/doublecloud/transfer/pkg/providers/yt/client"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract/model"
+	"github.com/altinity/transfer/pkg/config/env"
+	ytclient "github.com/altinity/transfer/pkg/providers/yt/client"
 	"github.com/dustin/go-humanize"
 	"go.ytsaurus.tech/yt/go/yt"
 )

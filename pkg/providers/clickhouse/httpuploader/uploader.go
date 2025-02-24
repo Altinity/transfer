@@ -7,11 +7,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/providers/clickhouse/conn"
-	"github.com/doublecloud/transfer/pkg/providers/clickhouse/httpclient"
-	"github.com/doublecloud/transfer/pkg/providers/clickhouse/model"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/providers/clickhouse/conn"
+	"github.com/altinity/transfer/pkg/providers/clickhouse/httpclient"
+	"github.com/altinity/transfer/pkg/providers/clickhouse/model"
 	"go.ytsaurus.tech/library/go/core/log"
 )
 

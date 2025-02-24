@@ -5,9 +5,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract/model"
-	"github.com/doublecloud/transfer/tests/tcrecipes/kafka"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract/model"
+	"github.com/altinity/transfer/tests/tcrecipes/kafka"
 )
 
 func ContainerNeeded() bool {

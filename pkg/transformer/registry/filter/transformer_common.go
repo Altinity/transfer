@@ -3,7 +3,7 @@ package filter
 import (
 	"fmt"
 
-	"github.com/doublecloud/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract"
 )
 
 func TableFqtnVariants(tID abstract.TableID) []string {

@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/pkg/providers/mysql"
-	"github.com/doublecloud/transfer/pkg/providers/mysql/mysqlrecipe"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/pkg/providers/mysql"
+	"github.com/altinity/transfer/pkg/providers/mysql/mysqlrecipe"
 	mysqldriver "github.com/go-sql-driver/mysql"
 	"github.com/stretchr/testify/require"
 	"go.ytsaurus.tech/library/go/core/log"

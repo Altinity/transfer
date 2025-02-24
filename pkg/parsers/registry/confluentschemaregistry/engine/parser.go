@@ -7,13 +7,13 @@ import (
 	"time"
 
 	"github.com/cenkalti/backoff/v4"
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/parsers"
-	genericparser "github.com/doublecloud/transfer/pkg/parsers/generic"
-	"github.com/doublecloud/transfer/pkg/schemaregistry/confluent"
-	"github.com/doublecloud/transfer/pkg/schemaregistry/warmup"
-	"github.com/doublecloud/transfer/pkg/util"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/parsers"
+	genericparser "github.com/altinity/transfer/pkg/parsers/generic"
+	"github.com/altinity/transfer/pkg/schemaregistry/confluent"
+	"github.com/altinity/transfer/pkg/schemaregistry/warmup"
+	"github.com/altinity/transfer/pkg/util"
 	"go.ytsaurus.tech/library/go/core/log"
 )
 

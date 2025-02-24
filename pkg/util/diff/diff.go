@@ -3,9 +3,9 @@ package diff
 import (
 	"strings"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/library/go/slices"
-	"github.com/doublecloud/transfer/pkg/util"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/library/go/slices"
+	"github.com/altinity/transfer/pkg/util"
 	"golang.org/x/exp/constraints"
 )
 

@@ -5,9 +5,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/doublecloud/transfer/internal/logger"
-	store "github.com/doublecloud/transfer/pkg/providers/delta/store"
-	"github.com/doublecloud/transfer/pkg/util/set"
+	"github.com/altinity/transfer/internal/logger"
+	store "github.com/altinity/transfer/pkg/providers/delta/store"
+	"github.com/altinity/transfer/pkg/util/set"
 	"github.com/stretchr/testify/require"
 )
 

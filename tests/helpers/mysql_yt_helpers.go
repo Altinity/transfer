@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/doublecloud/transfer/pkg/providers/mysql"
-	"github.com/doublecloud/transfer/pkg/providers/yt"
-	"github.com/doublecloud/transfer/pkg/providers/yt/storage"
+	"github.com/altinity/transfer/pkg/providers/mysql"
+	"github.com/altinity/transfer/pkg/providers/yt"
+	"github.com/altinity/transfer/pkg/providers/yt/storage"
 	"github.com/stretchr/testify/require"
 	"go.ytsaurus.tech/yt/go/ypath"
 	ytMain "go.ytsaurus.tech/yt/go/yt"

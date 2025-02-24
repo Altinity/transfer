@@ -7,11 +7,11 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract/dterrors"
-	"github.com/doublecloud/transfer/pkg/util"
-	"github.com/doublecloud/transfer/pkg/util/jsonx"
-	"github.com/doublecloud/transfer/pkg/util/set"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract/dterrors"
+	"github.com/altinity/transfer/pkg/util"
+	"github.com/altinity/transfer/pkg/util/jsonx"
+	"github.com/altinity/transfer/pkg/util/set"
 	"go.ytsaurus.tech/yt/go/yson"
 )
 

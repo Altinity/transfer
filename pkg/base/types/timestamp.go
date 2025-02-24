@@ -3,8 +3,8 @@ package types
 import (
 	"time"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/base"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/base"
 	yt_schema "go.ytsaurus.tech/yt/go/schema"
 )
 

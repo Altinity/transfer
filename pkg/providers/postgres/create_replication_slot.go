@@ -2,9 +2,9 @@ package postgres
 
 import (
 	"github.com/cenkalti/backoff/v4"
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/util"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/util"
 )
 
 func CreateReplicationSlot(src *PgSource, tracker ...*Tracker) error {

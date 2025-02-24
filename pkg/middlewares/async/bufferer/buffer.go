@@ -1,6 +1,6 @@
 package bufferer
 
-import "github.com/doublecloud/transfer/pkg/abstract"
+import "github.com/altinity/transfer/pkg/abstract"
 
 type buffer struct {
 	batch           []abstract.ChangeItem

@@ -3,7 +3,7 @@ package helpers
 import (
 	"context"
 
-	"github.com/doublecloud/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract"
 )
 
 type FakeStorage struct {

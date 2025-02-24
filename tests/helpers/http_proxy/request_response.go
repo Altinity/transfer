@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/doublecloud/transfer/pkg/util"
+	"github.com/altinity/transfer/pkg/util"
 	"github.com/google/uuid"
 	"github.com/klauspost/compress/zstd"
 )

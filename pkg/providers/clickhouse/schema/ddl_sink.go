@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/library/go/core/xerrors"
 )
 
 var createDDLre = regexp.MustCompile(`(?mis)` + // multiline, ignore case, dot matches new line

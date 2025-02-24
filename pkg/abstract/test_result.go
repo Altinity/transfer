@@ -1,8 +1,8 @@
 package abstract
 
 import (
-	"github.com/doublecloud/transfer/library/go/core/xerrors/multierr"
-	"github.com/doublecloud/transfer/pkg/abstract/changeitem"
+	"github.com/altinity/transfer/library/go/core/xerrors/multierr"
+	"github.com/altinity/transfer/pkg/abstract/changeitem"
 )
 
 // CheckType test check type

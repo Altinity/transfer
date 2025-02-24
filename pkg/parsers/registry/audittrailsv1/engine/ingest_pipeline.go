@@ -8,8 +8,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/stringutil"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/stringutil"
 	"github.com/ohler55/ojg/jp"
 	"golang.org/x/exp/maps"
 )

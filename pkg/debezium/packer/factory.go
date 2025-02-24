@@ -3,9 +3,9 @@ package packer
 import (
 	"strings"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	debeziumparameters "github.com/doublecloud/transfer/pkg/debezium/parameters"
-	"github.com/doublecloud/transfer/pkg/schemaregistry/confluent"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	debeziumparameters "github.com/altinity/transfer/pkg/debezium/parameters"
+	"github.com/altinity/transfer/pkg/schemaregistry/confluent"
 	"go.ytsaurus.tech/library/go/core/log"
 )
 

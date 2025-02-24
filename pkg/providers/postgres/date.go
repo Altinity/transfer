@@ -3,8 +3,8 @@ package postgres
 import (
 	"database/sql/driver"
 
-	"github.com/doublecloud/transfer/pkg/providers/postgres/sqltimestamp"
-	"github.com/doublecloud/transfer/pkg/util"
+	"github.com/altinity/transfer/pkg/providers/postgres/sqltimestamp"
+	"github.com/altinity/transfer/pkg/util"
 	"github.com/jackc/pgtype"
 )
 

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/library/go/test/canon"
-	"github.com/doublecloud/transfer/pkg/abstract"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/library/go/test/canon"
+	"github.com/altinity/transfer/pkg/abstract"
 	"github.com/stretchr/testify/require"
 )
 

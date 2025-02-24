@@ -1,7 +1,7 @@
 package s3
 
 import (
-	"github.com/doublecloud/transfer/pkg/abstract/typesystem"
+	"github.com/altinity/transfer/pkg/abstract/typesystem"
 	"go.ytsaurus.tech/yt/go/schema"
 )
 

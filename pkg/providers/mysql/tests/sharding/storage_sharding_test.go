@@ -5,9 +5,9 @@ import (
 	_ "embed"
 	"testing"
 
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/providers/mysql"
-	"github.com/doublecloud/transfer/pkg/providers/mysql/mysqlrecipe"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/providers/mysql"
+	"github.com/altinity/transfer/pkg/providers/mysql/mysqlrecipe"
 	default_mysql "github.com/go-sql-driver/mysql"
 	"github.com/stretchr/testify/require"
 )

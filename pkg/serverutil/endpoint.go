@@ -8,7 +8,7 @@ import (
 	"net/http/pprof"
 	"time"
 
-	"github.com/doublecloud/transfer/internal/logger"
+	"github.com/altinity/transfer/internal/logger"
 	"go.ytsaurus.tech/library/go/core/log"
 )
 

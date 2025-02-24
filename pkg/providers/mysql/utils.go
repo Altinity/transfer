@@ -9,12 +9,12 @@ import (
 	"time"
 
 	"github.com/cenkalti/backoff/v4"
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/providers/mysql/unmarshaller/snapshot"
-	"github.com/doublecloud/transfer/pkg/util"
-	"github.com/doublecloud/transfer/pkg/util/size"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/providers/mysql/unmarshaller/snapshot"
+	"github.com/altinity/transfer/pkg/util"
+	"github.com/altinity/transfer/pkg/util/size"
 	"github.com/go-mysql-org/go-mysql/mysql"
 	"go.ytsaurus.tech/library/go/core/log"
 )

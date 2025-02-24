@@ -3,10 +3,10 @@ package providers
 import (
 	"context"
 
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/abstract/model"
-	"github.com/doublecloud/transfer/pkg/cleanup"
-	"github.com/doublecloud/transfer/pkg/util"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract/model"
+	"github.com/altinity/transfer/pkg/cleanup"
+	"github.com/altinity/transfer/pkg/util"
 )
 
 type TablesOperationFunc = func(table abstract.TableMap) error

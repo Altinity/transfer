@@ -3,8 +3,8 @@ package dbt
 import (
 	"fmt"
 
-	"github.com/doublecloud/transfer/pkg/abstract"
-	transformerregistry "github.com/doublecloud/transfer/pkg/transformer"
+	"github.com/altinity/transfer/pkg/abstract"
+	transformerregistry "github.com/altinity/transfer/pkg/transformer"
 	"go.ytsaurus.tech/library/go/core/log"
 )
 

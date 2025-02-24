@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/transformer/registry/filter"
-	"github.com/doublecloud/transfer/pkg/util/set"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/transformer/registry/filter"
+	"github.com/altinity/transfer/pkg/util/set"
 	"github.com/stretchr/testify/require"
 )
 

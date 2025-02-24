@@ -4,12 +4,12 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	debeziumcommon "github.com/doublecloud/transfer/pkg/debezium/common"
-	debeziumparameters "github.com/doublecloud/transfer/pkg/debezium/parameters"
-	"github.com/doublecloud/transfer/pkg/debezium/typeutil"
-	"github.com/doublecloud/transfer/pkg/util"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract"
+	debeziumcommon "github.com/altinity/transfer/pkg/debezium/common"
+	debeziumparameters "github.com/altinity/transfer/pkg/debezium/parameters"
+	"github.com/altinity/transfer/pkg/debezium/typeutil"
+	"github.com/altinity/transfer/pkg/util"
 )
 
 var mapYDBTypeToKafkaType = map[string]*debeziumcommon.KafkaTypeDescr{

@@ -6,12 +6,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	debeziumcommon "github.com/doublecloud/transfer/pkg/debezium/common"
-	"github.com/doublecloud/transfer/pkg/debezium/mysql"
-	"github.com/doublecloud/transfer/pkg/debezium/pg"
-	"github.com/doublecloud/transfer/pkg/debezium/ydb"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract"
+	debeziumcommon "github.com/altinity/transfer/pkg/debezium/common"
+	"github.com/altinity/transfer/pkg/debezium/mysql"
+	"github.com/altinity/transfer/pkg/debezium/pg"
+	"github.com/altinity/transfer/pkg/debezium/ydb"
 )
 
 var prefixToNotDefaultReceiver map[string]debeziumcommon.NotDefaultReceiverDescription

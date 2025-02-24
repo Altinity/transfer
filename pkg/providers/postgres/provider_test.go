@@ -3,10 +3,10 @@ package postgres
 import (
 	"testing"
 
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/internal/metrics"
-	"github.com/doublecloud/transfer/pkg/abstract/model"
-	"github.com/doublecloud/transfer/pkg/middlewares"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/internal/metrics"
+	"github.com/altinity/transfer/pkg/abstract/model"
+	"github.com/altinity/transfer/pkg/middlewares"
 	"github.com/stretchr/testify/require"
 )
 

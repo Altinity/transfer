@@ -7,12 +7,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/library/go/core/metrics/solomon"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/parsers"
-	jsonparser "github.com/doublecloud/transfer/pkg/parsers/registry/json"
-	"github.com/doublecloud/transfer/pkg/providers/kafka/client"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/library/go/core/metrics/solomon"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/parsers"
+	jsonparser "github.com/altinity/transfer/pkg/parsers/registry/json"
+	"github.com/altinity/transfer/pkg/providers/kafka/client"
 	"github.com/stretchr/testify/require"
 	"github.com/twmb/franz-go/pkg/kgo"
 )

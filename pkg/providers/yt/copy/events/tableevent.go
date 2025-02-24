@@ -1,8 +1,8 @@
 package events
 
 import (
-	"github.com/doublecloud/transfer/pkg/base"
-	"github.com/doublecloud/transfer/pkg/providers/yt/tablemeta"
+	"github.com/altinity/transfer/pkg/base"
+	"github.com/altinity/transfer/pkg/providers/yt/tablemeta"
 )
 
 type tableEvent struct {

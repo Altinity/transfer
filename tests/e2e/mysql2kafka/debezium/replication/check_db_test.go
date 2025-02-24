@@ -7,14 +7,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/doublecloud/transfer/library/go/test/canon"
-	"github.com/doublecloud/transfer/library/go/test/yatest"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	dp_model "github.com/doublecloud/transfer/pkg/abstract/model"
-	kafka_provider "github.com/doublecloud/transfer/pkg/providers/kafka"
-	"github.com/doublecloud/transfer/pkg/providers/mysql"
-	"github.com/doublecloud/transfer/pkg/util"
-	"github.com/doublecloud/transfer/tests/helpers"
+	"github.com/altinity/transfer/library/go/test/canon"
+	"github.com/altinity/transfer/library/go/test/yatest"
+	"github.com/altinity/transfer/pkg/abstract"
+	dp_model "github.com/altinity/transfer/pkg/abstract/model"
+	kafka_provider "github.com/altinity/transfer/pkg/providers/kafka"
+	"github.com/altinity/transfer/pkg/providers/mysql"
+	"github.com/altinity/transfer/pkg/util"
+	"github.com/altinity/transfer/tests/helpers"
 	"github.com/stretchr/testify/require"
 )
 

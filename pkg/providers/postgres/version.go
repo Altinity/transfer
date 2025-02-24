@@ -4,7 +4,7 @@ import (
 	"context"
 	"strings"
 
-	"github.com/doublecloud/transfer/internal/logger"
+	"github.com/altinity/transfer/internal/logger"
 	"github.com/jackc/pgtype/pgxtype"
 	"go.ytsaurus.tech/library/go/core/log"
 )

@@ -1,15 +1,15 @@
 package kafka
 
 import (
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/abstract/model"
-	debeziumparameters "github.com/doublecloud/transfer/pkg/debezium/parameters"
-	debezium_prod_status "github.com/doublecloud/transfer/pkg/debezium/prodstatus"
-	"github.com/doublecloud/transfer/pkg/providers/airbyte"
-	clickhouse "github.com/doublecloud/transfer/pkg/providers/clickhouse/model"
-	"github.com/doublecloud/transfer/pkg/providers/mysql"
-	"github.com/doublecloud/transfer/pkg/providers/postgres"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract/model"
+	debeziumparameters "github.com/altinity/transfer/pkg/debezium/parameters"
+	debezium_prod_status "github.com/altinity/transfer/pkg/debezium/prodstatus"
+	"github.com/altinity/transfer/pkg/providers/airbyte"
+	clickhouse "github.com/altinity/transfer/pkg/providers/clickhouse/model"
+	"github.com/altinity/transfer/pkg/providers/mysql"
+	"github.com/altinity/transfer/pkg/providers/postgres"
 )
 
 type Mirrareable interface {

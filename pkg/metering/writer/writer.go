@@ -1,7 +1,7 @@
 package writer
 
 import (
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/library/go/core/xerrors"
 )
 
 type Writer interface {

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/doublecloud/transfer/library/go/core/metrics/solomon"
-	"github.com/doublecloud/transfer/pkg/util/size"
+	"github.com/altinity/transfer/library/go/core/metrics/solomon"
+	"github.com/altinity/transfer/pkg/util/size"
 	"github.com/stretchr/testify/require"
 )
 

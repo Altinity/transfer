@@ -1,9 +1,9 @@
 package middlewares
 
 import (
-	"github.com/doublecloud/transfer/library/go/core/metrics"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/stats"
+	"github.com/altinity/transfer/library/go/core/metrics"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/stats"
 )
 
 type ExcludePredicate func(*abstract.ChangeItem) bool

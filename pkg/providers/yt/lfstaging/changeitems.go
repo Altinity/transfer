@@ -3,7 +3,7 @@ package lfstaging
 import (
 	"time"
 
-	"github.com/doublecloud/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract"
 	"golang.org/x/xerrors"
 )
 

@@ -3,7 +3,7 @@ package greenplum
 import (
 	"fmt"
 
-	pgcommon "github.com/doublecloud/transfer/pkg/providers/postgres"
+	pgcommon "github.com/altinity/transfer/pkg/providers/postgres"
 )
 
 type GreenplumFlavour struct {

@@ -4,10 +4,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	debeziumcommon "github.com/doublecloud/transfer/pkg/debezium/common"
-	"github.com/doublecloud/transfer/pkg/debezium/typeutil"
-	"github.com/doublecloud/transfer/pkg/util/jsonx"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	debeziumcommon "github.com/altinity/transfer/pkg/debezium/common"
+	"github.com/altinity/transfer/pkg/debezium/typeutil"
+	"github.com/altinity/transfer/pkg/util/jsonx"
 )
 
 //---------------------------------------------------------------------------------------------------------------------

@@ -7,11 +7,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/util/castx"
-	"github.com/doublecloud/transfer/pkg/util/jsonx"
-	"github.com/doublecloud/transfer/pkg/util/strict"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/util/castx"
+	"github.com/altinity/transfer/pkg/util/jsonx"
+	"github.com/altinity/transfer/pkg/util/strict"
 	"github.com/spf13/cast"
 	"go.ytsaurus.tech/yt/go/schema"
 )

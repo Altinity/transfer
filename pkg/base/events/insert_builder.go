@@ -1,9 +1,9 @@
 package events
 
 import (
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/base"
-	"github.com/doublecloud/transfer/pkg/util"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/base"
+	"github.com/altinity/transfer/pkg/util"
 )
 
 type insertBuilder struct {

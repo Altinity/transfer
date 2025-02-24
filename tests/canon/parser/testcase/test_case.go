@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/pkg/parsers"
-	_ "github.com/doublecloud/transfer/pkg/parsers/registry"
-	"github.com/doublecloud/transfer/pkg/providers/kafka"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/pkg/parsers"
+	_ "github.com/altinity/transfer/pkg/parsers/registry"
+	"github.com/altinity/transfer/pkg/providers/kafka"
 	"github.com/stretchr/testify/require"
 	"go.ytsaurus.tech/library/go/core/log"
 )

@@ -7,14 +7,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/library/go/core/metrics/solomon"
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	model "github.com/doublecloud/transfer/pkg/abstract/model"
-	"github.com/doublecloud/transfer/pkg/coordinator/s3coordinator"
-	"github.com/doublecloud/transfer/pkg/terryid"
-	"github.com/doublecloud/transfer/pkg/worker/tasks"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/library/go/core/metrics/solomon"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract"
+	model "github.com/altinity/transfer/pkg/abstract/model"
+	"github.com/altinity/transfer/pkg/coordinator/s3coordinator"
+	"github.com/altinity/transfer/pkg/terryid"
+	"github.com/altinity/transfer/pkg/worker/tasks"
 	"github.com/stretchr/testify/require"
 )
 

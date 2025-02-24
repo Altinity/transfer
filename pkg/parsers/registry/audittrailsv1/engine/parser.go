@@ -5,13 +5,13 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/parsers"
-	"github.com/doublecloud/transfer/pkg/parsers/generic"
-	jsonparser "github.com/doublecloud/transfer/pkg/parsers/registry/json"
-	"github.com/doublecloud/transfer/pkg/stats"
-	"github.com/doublecloud/transfer/pkg/util/jsonx"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/parsers"
+	"github.com/altinity/transfer/pkg/parsers/generic"
+	jsonparser "github.com/altinity/transfer/pkg/parsers/registry/json"
+	"github.com/altinity/transfer/pkg/stats"
+	"github.com/altinity/transfer/pkg/util/jsonx"
 	"go.ytsaurus.tech/library/go/core/log"
 )
 

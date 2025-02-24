@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/doublecloud/transfer/library/go/core/metrics"
-	"github.com/doublecloud/transfer/pkg/stringutil"
-	"github.com/doublecloud/transfer/pkg/util/size"
+	"github.com/altinity/transfer/library/go/core/metrics"
+	"github.com/altinity/transfer/pkg/stringutil"
+	"github.com/altinity/transfer/pkg/util/size"
 	"go.ytsaurus.tech/library/go/core/log"
 )
 

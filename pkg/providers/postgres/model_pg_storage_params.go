@@ -5,8 +5,8 @@ import (
 	"crypto/x509"
 	"fmt"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract"
 )
 
 type PgStorageParams struct {

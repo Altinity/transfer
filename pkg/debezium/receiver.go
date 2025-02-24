@@ -4,14 +4,14 @@ import (
 	"encoding/json"
 	"sync"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	debeziumcommon "github.com/doublecloud/transfer/pkg/debezium/common"
-	debeziumparameters "github.com/doublecloud/transfer/pkg/debezium/parameters"
-	"github.com/doublecloud/transfer/pkg/debezium/unpacker"
-	"github.com/doublecloud/transfer/pkg/schemaregistry/confluent"
-	"github.com/doublecloud/transfer/pkg/schemaregistry/format"
-	"github.com/doublecloud/transfer/pkg/util"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract"
+	debeziumcommon "github.com/altinity/transfer/pkg/debezium/common"
+	debeziumparameters "github.com/altinity/transfer/pkg/debezium/parameters"
+	"github.com/altinity/transfer/pkg/debezium/unpacker"
+	"github.com/altinity/transfer/pkg/schemaregistry/confluent"
+	"github.com/altinity/transfer/pkg/schemaregistry/format"
+	"github.com/altinity/transfer/pkg/util"
 )
 
 type Receiver struct {

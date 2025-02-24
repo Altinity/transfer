@@ -3,16 +3,16 @@ package replicate
 import (
 	"time"
 
-	"github.com/doublecloud/transfer/cmd/trcli/activate"
-	"github.com/doublecloud/transfer/cmd/trcli/config"
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/library/go/core/metrics"
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/abstract/coordinator"
-	"github.com/doublecloud/transfer/pkg/abstract/model"
-	"github.com/doublecloud/transfer/pkg/dataplane/provideradapter"
-	"github.com/doublecloud/transfer/pkg/runtime/local"
+	"github.com/altinity/transfer/cmd/trcli/activate"
+	"github.com/altinity/transfer/cmd/trcli/config"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/library/go/core/metrics"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract/coordinator"
+	"github.com/altinity/transfer/pkg/abstract/model"
+	"github.com/altinity/transfer/pkg/dataplane/provideradapter"
+	"github.com/altinity/transfer/pkg/runtime/local"
 	"github.com/spf13/cobra"
 )
 

@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/util/castx"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/util/castx"
 	"github.com/stretchr/testify/require"
 )
 

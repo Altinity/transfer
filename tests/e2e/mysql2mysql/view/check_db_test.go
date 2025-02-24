@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/tests/helpers"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/tests/helpers"
 	mysql_client "github.com/go-sql-driver/mysql"
 	"github.com/stretchr/testify/require"
 )

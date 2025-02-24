@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"encoding/json"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/util/jsonx"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/util/jsonx"
 	"github.com/jhump/protoreflect/dynamic"
 	ytschema "go.ytsaurus.tech/yt/go/schema"
 	"google.golang.org/protobuf/types/descriptorpb"

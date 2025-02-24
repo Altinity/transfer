@@ -1,9 +1,9 @@
 package protobuf
 
 import (
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/parsers/registry/protobuf/protoparser"
-	"github.com/doublecloud/transfer/pkg/parsers/resources"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/parsers/registry/protobuf/protoparser"
+	"github.com/altinity/transfer/pkg/parsers/resources"
 	"go.ytsaurus.tech/library/go/core/log"
 )
 

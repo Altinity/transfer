@@ -1,8 +1,8 @@
 package batchsplitter
 
 import (
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/transformer"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/transformer"
 	"go.ytsaurus.tech/library/go/core/log"
 )
 

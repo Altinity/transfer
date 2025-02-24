@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/doublecloud/transfer/pkg/abstract/typesystem"
+	"github.com/altinity/transfer/pkg/abstract/typesystem"
 	"github.com/stretchr/testify/require"
 )
 

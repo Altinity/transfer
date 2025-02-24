@@ -3,12 +3,11 @@
 <div align="center">
 
 <h4 align="center">
-  <a href="https://doublecloud.github.io/transfer/">Transfer</a>  |
-  <a href="https://doublecloud.github.io/transfer/docs/getting_started.html">Documentation</a>  |
-  <a href="https://doublecloud.github.io/transfer/docs/benchmarks.html">Benchmarking</a>  |
-  <a href="https://doublecloud.github.io/transfer/docs/roadmap">Roadmap</a>
+  <a href="https://altinity.github.io/transfer/">Transfer</a>  |
+  <a href="https://altinity.github.io/transfer/docs/getting_started.html">Documentation</a>  |
+  <a href="https://altinity.github.io/transfer/docs/benchmarks.html">Benchmarking</a>  |
+  <a href="https://altinity.github.io/transfer/docs/roadmap">Roadmap</a>
 </h4>
-
 
 </div>
 
@@ -25,7 +24,6 @@ Our ultimate mission is to help you move data from any source to any destination
 
 <div align="center">
 
-
 ## 🚀 Try Transfer
 
 </div>
@@ -40,11 +38,10 @@ make build
 
 ![Made with VHS](https://vhs.charm.sh/vhs-3ETIytnxDtBmrgkcOX3ZBf.gif)
 
-
 ### 2. Using docker container
 
 ```shell
-docker pull ghcr.io/doublecloud/transfer:dev
+docker pull docker.io/altinity/transfer:dev
 ```
 
 ### 3. Deploy via helm-chart
@@ -55,19 +52,18 @@ Deploy as helm-chart in your own k8s cluster
 
 ```bash
 helm upgrade NAME_OF_TRANSFER \
-  --namespace NAME_OF_NAMESPACE oci://ghcr.io/doublecloud/transfer-helm/transfer \
+  --namespace NAME_OF_NAMESPACE oci://docker.io/altinity/transfer-helm/transfer \
   --values PATH_TO_VALUES_FILE \
   --install
 ```
 
-More details [here](./docs/deploy_k8s.md). 
+More details [here](./docs/deploy_k8s.md).
 
 <div align="center">
 
 ## 🚀 Getting Started
 
 </div>
-
 
 <details>
 <summary>Ingestion from OLTP</summary>
@@ -99,8 +95,8 @@ More details [here](./docs/deploy_k8s.md).
 
 - [S3 with SQS ingestion to Clickhouse](./examples/s3sqs2ch/README.md)
 
-[//]: # (- [Parquet file to Clickhouse]&#40;./examples/s32ch/parquet.md&#41;)
-[//]: # (- [CSV file to Clickhouse]&#40;./examples/s32ch/csv.md&#41;)
+[//]: # "- [Parquet file to Clickhouse](./examples/s32ch/parquet.md)"
+[//]: # "- [CSV file to Clickhouse](./examples/s32ch/csv.md)"
 
 </details>
 
@@ -180,7 +176,6 @@ More details [here](./docs/deploy_k8s.md).
 
 ## ⚡ Performance
 
-
 [Naive-s3-vs-airbyte](https://medium.com/@laskoviymishka/transfer-s3-connector-vs-airbyte-s3-connector-360a0da084ae)
 
 </div>
@@ -190,7 +185,6 @@ More details [here](./docs/deploy_k8s.md).
 <div align="center">
 
 ## 📐 Architecture
-
 
 <img src="./docs/_assets/architecture.png" alt="transfer" />
 
@@ -230,7 +224,6 @@ Large-block reading primitive from data. The final stream of events of one type 
 ### ROW level Gurantee
 
 At the most primitive storage level, it is enough to implement the reading of all logical lines from the source to work. In this case, the unit of consistency is the string itself. Example - if we say that one line is one file on disk, then reading the directory gives a guarantee of consistency within one specific file.
-
 
 ### Table level Gurantee
 
@@ -300,20 +293,19 @@ For maximum guarantees (exact slice of the source at **any** point in time) both
 
 For current storages, we have approximately the following matrix:
 
-| Storage Type | S/Row |S/Table|S/DB|S/Slot|R/Row|R/Table|R/TX|T/Rows|T/Keys|T/LSN|T/TX|
-|:-------------|:------|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-| PG           | \+    |\+|\+|\+|\+|\+|\+|\+|\+|\+|\+|
-| Mysql        | \+    |\+|\+||\+|\+|\+|\+|\+|\+|\+|
-| Mongodb      | \+    ||||\+|||\+|\+|||
-| Clickhouse   | \+    |||||||\+||\+||
-| Greenplum    | \+    |\+|\+|||||\+|\+|\+|\+|
-| YDB          | \+    |\+||||||\+|\+|||
-| YT           | \+    |\+||||||\+|\+|\+||
-| Airbyte      | \+    |\+/-||||\+/-||\+|\+/-|||
-| Kafka        | \+    ||||\+|||\+||||
-| EventHub     | \+    ||||\+|||\+||||
-| LogBroker    | \+    ||||\+|||\+||\+||
-
+| Storage Type | S/Row | S/Table | S/DB | S/Slot | R/Row | R/Table | R/TX | T/Rows | T/Keys | T/LSN | T/TX |
+| :----------- | :---- | :------ | :--- | :----- | :---- | :------ | :--- | :----- | :----- | :---- | :--- |
+| PG           | \+    | \+      | \+   | \+     | \+    | \+      | \+   | \+     | \+     | \+    | \+   |
+| Mysql        | \+    | \+      | \+   |        | \+    | \+      | \+   | \+     | \+     | \+    | \+   |
+| Mongodb      | \+    |         |      |        | \+    |         |      | \+     | \+     |       |      |
+| Clickhouse   | \+    |         |      |        |       |         |      | \+     |        | \+    |      |
+| Greenplum    | \+    | \+      | \+   |        |       |         |      | \+     | \+     | \+    | \+   |
+| YDB          | \+    | \+      |      |        |       |         |      | \+     | \+     |       |      |
+| YT           | \+    | \+      |      |        |       |         |      | \+     | \+     | \+    |      |
+| Airbyte      | \+    | \+/-    |      |        |       | \+/-    |      | \+     | \+/-   |       |      |
+| Kafka        | \+    |         |      |        | \+    |         |      | \+     |        |       |      |
+| EventHub     | \+    |         |      |        | \+    |         |      | \+     |        |       |      |
+| LogBroker    | \+    |         |      |        | \+    |         |      | \+     |        | \+    |      |
 
 <div align="center">
 
@@ -337,7 +329,7 @@ Here are some resources to help you get started:
 For guidance on using Transfer, we recommend starting with the official documentation. If you need further assistance, explore the following community channels:
 
 - [Slack](https://todo.com) (For live discussion with the Community)
-- [GitHub](https://github.com/doublecloud/transfer) (Feature/Bug reports, Contributions)
+- [GitHub](https://github.com/altinity/transfer) (Feature/Bug reports, Contributions)
 - [Twitter](https://x.com/laskoviymish) (Get the news fast)
 
 <div align="center">

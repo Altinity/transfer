@@ -4,8 +4,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract"
 )
 
 type UnmarshallerF = func(value any, colSchema *abstract.ColSchema, location *time.Location) (any, error)

@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/abstract/model"
-	ytcommon "github.com/doublecloud/transfer/pkg/providers/yt"
-	"github.com/doublecloud/transfer/tests/e2e/mongo2yt/rotator"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract/model"
+	ytcommon "github.com/altinity/transfer/pkg/providers/yt"
+	"github.com/altinity/transfer/tests/e2e/mongo2yt/rotator"
 	"go.ytsaurus.tech/yt/go/ypath"
 )
 

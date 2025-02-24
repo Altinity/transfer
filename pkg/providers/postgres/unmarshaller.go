@@ -3,10 +3,10 @@ package postgres
 import (
 	"time"
 
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/util/xlocale"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/util/xlocale"
 	"github.com/gofrs/uuid"
 	"github.com/jackc/pgproto3/v2"
 	"github.com/jackc/pgtype"

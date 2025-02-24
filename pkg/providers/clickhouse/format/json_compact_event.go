@@ -4,11 +4,11 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/base"
-	"github.com/doublecloud/transfer/pkg/base/adapter"
-	"github.com/doublecloud/transfer/pkg/base/events"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/base"
+	"github.com/altinity/transfer/pkg/base/adapter"
+	"github.com/altinity/transfer/pkg/base/events"
 )
 
 type JSONCompactEvent struct {

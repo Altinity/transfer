@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/pkg/randutil"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/pkg/randutil"
 	"github.com/stretchr/testify/require"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"

@@ -3,16 +3,16 @@ package transformer_test
 import (
 	"testing"
 
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/library/go/core/metrics/solomon"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/abstract/coordinator"
-	"github.com/doublecloud/transfer/pkg/abstract/model"
-	"github.com/doublecloud/transfer/pkg/middlewares"
-	"github.com/doublecloud/transfer/pkg/sink"
-	transformers_registry "github.com/doublecloud/transfer/pkg/transformer"
-	"github.com/doublecloud/transfer/pkg/transformer/registry/filter"
-	replaceprimarykey "github.com/doublecloud/transfer/pkg/transformer/registry/replace_primary_key"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/library/go/core/metrics/solomon"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract/coordinator"
+	"github.com/altinity/transfer/pkg/abstract/model"
+	"github.com/altinity/transfer/pkg/middlewares"
+	"github.com/altinity/transfer/pkg/sink"
+	transformers_registry "github.com/altinity/transfer/pkg/transformer"
+	"github.com/altinity/transfer/pkg/transformer/registry/filter"
+	replaceprimarykey "github.com/altinity/transfer/pkg/transformer/registry/replace_primary_key"
 	"github.com/stretchr/testify/require"
 )
 

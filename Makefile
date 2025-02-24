@@ -57,13 +57,13 @@ run-tests:
 
 # Define variables
 HELM_CHART_PATH := ./helm/transfer
-IMAGE_NAME := ghcr.io/doublecloud/transfer-helm
+IMAGE_NAME := docker.io/altinity/transfer-helm
 VERSION := $(shell grep '^version:' $(HELM_CHART_PATH)/Chart.yaml | awk '{print $$2}')
 
 # Login to GitHub Container Registry
 .PHONY: login-ghcr
 login-ghcr:
-	echo "${GHCR_TOKEN}" | docker login ghcr.io -u ${GITHUB_USERNAME} --password-stdin
+	echo "${GHCR_TOKEN}" | docker login docker.io -u ${GITHUB_USERNAME} --password-stdin
 
 # Package the Helm chart
 .PHONY: helm-package

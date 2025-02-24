@@ -1,7 +1,7 @@
 package tskv
 
 import (
-	"github.com/doublecloud/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract"
 )
 
 type ParserConfigTSKVLb struct {

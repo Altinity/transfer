@@ -1,8 +1,8 @@
 package postgres
 
 import (
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/errors/coded"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/errors/coded"
 	"github.com/jackc/pgconn"
 )
 

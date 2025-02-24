@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/doublecloud/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract"
 )
 
 func UnmarshalChangeItems(t *testing.T, changeItemBuf []byte) []abstract.ChangeItem {

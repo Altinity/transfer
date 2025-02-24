@@ -3,8 +3,8 @@ package ydb
 import (
 	"context"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/credentials"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/credentials"
 	v3credential "github.com/ydb-platform/ydb-go-sdk/v3/credentials"
 	"go.ytsaurus.tech/library/go/core/log"
 )

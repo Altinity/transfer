@@ -5,12 +5,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	debeziumparameters "github.com/doublecloud/transfer/pkg/debezium/parameters"
-	debeziumengine "github.com/doublecloud/transfer/pkg/parsers/registry/debezium/engine"
-	"github.com/doublecloud/transfer/pkg/schemaregistry/confluent"
-	confluentsrmock "github.com/doublecloud/transfer/tests/helpers/confluent_schema_registry_mock"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/pkg/abstract"
+	debeziumparameters "github.com/altinity/transfer/pkg/debezium/parameters"
+	debeziumengine "github.com/altinity/transfer/pkg/parsers/registry/debezium/engine"
+	"github.com/altinity/transfer/pkg/schemaregistry/confluent"
+	confluentsrmock "github.com/altinity/transfer/tests/helpers/confluent_schema_registry_mock"
 	"github.com/stretchr/testify/require"
 	ytschema "go.ytsaurus.tech/yt/go/schema"
 )

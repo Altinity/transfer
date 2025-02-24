@@ -4,13 +4,13 @@ import (
 	"embed"
 	"testing"
 
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/internal/metrics"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	parsersfactory "github.com/doublecloud/transfer/pkg/parsers"
-	"github.com/doublecloud/transfer/pkg/stats"
-	"github.com/doublecloud/transfer/tests/canon/parser/testcase"
-	"github.com/doublecloud/transfer/tests/canon/validator"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/internal/metrics"
+	"github.com/altinity/transfer/pkg/abstract"
+	parsersfactory "github.com/altinity/transfer/pkg/parsers"
+	"github.com/altinity/transfer/pkg/stats"
+	"github.com/altinity/transfer/tests/canon/parser/testcase"
+	"github.com/altinity/transfer/tests/canon/validator"
 	"github.com/stretchr/testify/require"
 )
 

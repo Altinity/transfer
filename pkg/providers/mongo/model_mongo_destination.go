@@ -3,8 +3,8 @@ package mongo
 import (
 	"sort"
 
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/abstract/model"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract/model"
 )
 
 type MongoDestination struct {

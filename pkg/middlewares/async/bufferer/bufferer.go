@@ -4,10 +4,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/doublecloud/transfer/library/go/core/metrics"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/stats"
-	"github.com/doublecloud/transfer/pkg/util"
+	"github.com/altinity/transfer/library/go/core/metrics"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/stats"
+	"github.com/altinity/transfer/pkg/util"
 	"github.com/dustin/go-humanize"
 	"go.ytsaurus.tech/library/go/core/log"
 )

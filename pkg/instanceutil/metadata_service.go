@@ -5,7 +5,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/library/go/core/xerrors"
 	"gopkg.in/yaml.v2"
 )
 

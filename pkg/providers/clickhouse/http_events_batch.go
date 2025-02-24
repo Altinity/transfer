@@ -5,10 +5,10 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/base"
-	"github.com/doublecloud/transfer/pkg/providers/clickhouse/format"
-	"github.com/doublecloud/transfer/pkg/providers/clickhouse/model"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/base"
+	"github.com/altinity/transfer/pkg/providers/clickhouse/format"
+	"github.com/altinity/transfer/pkg/providers/clickhouse/model"
 )
 
 type HTTPEventsBatch struct {

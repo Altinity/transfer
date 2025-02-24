@@ -1,11 +1,11 @@
 package kafka
 
 import (
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/library/go/slices"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/dbaas"
-	"github.com/doublecloud/transfer/pkg/providers/kafka/client"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/library/go/slices"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/dbaas"
+	"github.com/altinity/transfer/pkg/providers/kafka/client"
 )
 
 func ResolveBrokers(s *KafkaConnectionOptions) ([]string, error) {

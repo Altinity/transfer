@@ -3,9 +3,9 @@ package protocol
 import (
 	"strings"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/providers/delta/action"
-	store2 "github.com/doublecloud/transfer/pkg/providers/delta/store"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/providers/delta/action"
+	store2 "github.com/altinity/transfer/pkg/providers/delta/store"
 )
 
 type TableLog struct {

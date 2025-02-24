@@ -3,7 +3,7 @@ package debezium
 import (
 	"testing"
 
-	debeziumcommon "github.com/doublecloud/transfer/pkg/debezium/common"
+	debeziumcommon "github.com/altinity/transfer/pkg/debezium/common"
 	"github.com/stretchr/testify/require"
 	ytschema "go.ytsaurus.tech/yt/go/schema"
 )

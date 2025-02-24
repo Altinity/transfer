@@ -5,16 +5,16 @@ import (
 	"os"
 	"testing"
 
-	"github.com/doublecloud/transfer/library/go/test/yatest"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/abstract/model"
-	chrecipe "github.com/doublecloud/transfer/pkg/providers/clickhouse/recipe"
-	"github.com/doublecloud/transfer/pkg/providers/postgres/pgrecipe"
-	"github.com/doublecloud/transfer/pkg/runtime/shared/pod"
-	transformers_registry "github.com/doublecloud/transfer/pkg/transformer"
-	"github.com/doublecloud/transfer/pkg/transformer/registry/dbt"
-	_ "github.com/doublecloud/transfer/pkg/transformer/registry/dbt/clickhouse"
-	"github.com/doublecloud/transfer/tests/helpers"
+	"github.com/altinity/transfer/library/go/test/yatest"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract/model"
+	chrecipe "github.com/altinity/transfer/pkg/providers/clickhouse/recipe"
+	"github.com/altinity/transfer/pkg/providers/postgres/pgrecipe"
+	"github.com/altinity/transfer/pkg/runtime/shared/pod"
+	transformers_registry "github.com/altinity/transfer/pkg/transformer"
+	"github.com/altinity/transfer/pkg/transformer/registry/dbt"
+	_ "github.com/altinity/transfer/pkg/transformer/registry/dbt/clickhouse"
+	"github.com/altinity/transfer/tests/helpers"
 	"github.com/stretchr/testify/require"
 )
 
@@ -47,7 +47,7 @@ func TestSnapshot(t *testing.T) {
 	target.Cleanup = model.Drop
 	transfer := helpers.MakeTransfer("testtransfer", source, target, abstract.TransferTypeSnapshotOnly)
 	addTransformationToTransfer(transfer, dbt.Config{
-		GitRepositoryLink: fmt.Sprintf("https://%s@github.com/doublecloud/tests-clickhouse-dbt.git", githubPAT),
+		GitRepositoryLink: fmt.Sprintf("https://%s@github.com/altinity/tests-clickhouse-dbt.git", githubPAT),
 		ProfileName:       "clickhouse",
 		Operation:         "run",
 	})

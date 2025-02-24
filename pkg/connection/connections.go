@@ -1,7 +1,7 @@
 package connection
 
 import (
-	"github.com/doublecloud/transfer/pkg/abstract/model"
+	"github.com/altinity/transfer/pkg/abstract/model"
 )
 
 var _ ManagedConnection = (*ConnectionPG)(nil)

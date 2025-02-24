@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/doublecloud/transfer/pkg/abstract/model"
-	"github.com/doublecloud/transfer/pkg/worker/tasks"
+	"github.com/altinity/transfer/pkg/abstract/model"
+	"github.com/altinity/transfer/pkg/worker/tasks"
 	"github.com/stretchr/testify/require"
 )
 

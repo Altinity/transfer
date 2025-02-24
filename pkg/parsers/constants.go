@@ -1,7 +1,7 @@
 package parsers
 
 import (
-	"github.com/doublecloud/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract"
 	ytschema "go.ytsaurus.tech/yt/go/schema"
 )
 

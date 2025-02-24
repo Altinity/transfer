@@ -1,6 +1,6 @@
 package abstract
 
-import "github.com/doublecloud/transfer/pkg/abstract/dterrors"
+import "github.com/altinity/transfer/pkg/abstract/dterrors"
 
 type RetriablePartUploadError = dterrors.RetriablePartUploadError
 type TableUploadError = dterrors.TableUploadError

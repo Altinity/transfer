@@ -5,10 +5,10 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract/model"
-	"github.com/doublecloud/transfer/pkg/connection"
-	"github.com/doublecloud/transfer/pkg/providers/mysql"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract/model"
+	"github.com/altinity/transfer/pkg/connection"
+	"github.com/altinity/transfer/pkg/providers/mysql"
 	default_mysql "github.com/go-sql-driver/mysql"
 )
 

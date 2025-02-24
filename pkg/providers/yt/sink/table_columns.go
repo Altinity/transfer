@@ -2,7 +2,7 @@
 package sink
 
 import (
-	"github.com/doublecloud/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/abstract"
 )
 
 type columnName = string

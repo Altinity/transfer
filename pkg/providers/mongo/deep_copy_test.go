@@ -4,7 +4,7 @@ import (
 	"encoding/gob"
 	"testing"
 
-	"github.com/doublecloud/transfer/pkg/util"
+	"github.com/altinity/transfer/pkg/util"
 	"github.com/stretchr/testify/require"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )

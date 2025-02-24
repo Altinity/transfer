@@ -4,9 +4,9 @@ import (
 	_ "embed"
 	"testing"
 
-	"github.com/doublecloud/transfer/cmd/trcli/check"
-	"github.com/doublecloud/transfer/cmd/trcli/config"
-	"github.com/doublecloud/transfer/pkg/providers/postgres/pgrecipe"
+	"github.com/altinity/transfer/cmd/trcli/check"
+	"github.com/altinity/transfer/cmd/trcli/config"
+	"github.com/altinity/transfer/pkg/providers/postgres/pgrecipe"
 	"github.com/stretchr/testify/require"
 )
 

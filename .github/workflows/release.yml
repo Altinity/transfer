@@ -8,13 +8,14 @@ on:
         description: Extra args for go-releaser, for example '--snapshot'
         required: false
         type: string
-permissions: {}
+
+permissions:
+  contents: write
+  packages: write
+
 jobs:
   build-and-push-image:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      packages: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4

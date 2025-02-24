@@ -6,11 +6,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/schemaregistry/confluent"
-	"github.com/doublecloud/transfer/pkg/util"
-	"github.com/doublecloud/transfer/pkg/util/jsonx"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/schemaregistry/confluent"
+	"github.com/altinity/transfer/pkg/util"
+	"github.com/altinity/transfer/pkg/util/jsonx"
 	ytschema "go.ytsaurus.tech/yt/go/schema"
 )
 

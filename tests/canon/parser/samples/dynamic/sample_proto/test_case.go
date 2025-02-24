@@ -3,11 +3,11 @@ package sampleproto
 import (
 	"bytes"
 
-	"github.com/doublecloud/transfer/internal/logger"
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/parsers/registry/protobuf"
-	"github.com/doublecloud/transfer/tests/canon/parser/samples/dynamic/sample_proto/sample_proto"
-	"github.com/doublecloud/transfer/tests/canon/parser/testcase"
+	"github.com/altinity/transfer/internal/logger"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/parsers/registry/protobuf"
+	"github.com/altinity/transfer/tests/canon/parser/samples/dynamic/sample_proto/sample_proto"
+	"github.com/altinity/transfer/tests/canon/parser/testcase"
 	"github.com/golang/protobuf/descriptor"
 	"github.com/jhump/protoreflect/desc"
 	"go.ytsaurus.tech/library/go/core/log"

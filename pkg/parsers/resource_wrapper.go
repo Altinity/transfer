@@ -1,8 +1,8 @@
 package parsers
 
 import (
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/parsers/resources"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/parsers/resources"
 )
 
 type ResourceableParser struct {

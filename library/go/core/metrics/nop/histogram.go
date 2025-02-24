@@ -3,7 +3,7 @@ package nop
 import (
 	"time"
 
-	"github.com/doublecloud/transfer/library/go/core/metrics"
+	"github.com/altinity/transfer/library/go/core/metrics"
 )
 
 var (

@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	ytcommon "github.com/doublecloud/transfer/pkg/providers/yt"
+	ytcommon "github.com/altinity/transfer/pkg/providers/yt"
 	"github.com/testcontainers/testcontainers-go"
 )
 

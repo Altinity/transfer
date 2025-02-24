@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/doublecloud/transfer/library/go/core/xerrors"
-	"github.com/doublecloud/transfer/pkg/abstract"
-	"github.com/doublecloud/transfer/pkg/providers/mysql/unmarshaller/types"
-	"github.com/doublecloud/transfer/pkg/util"
+	"github.com/altinity/transfer/library/go/core/xerrors"
+	"github.com/altinity/transfer/pkg/abstract"
+	"github.com/altinity/transfer/pkg/providers/mysql/unmarshaller/types"
+	"github.com/altinity/transfer/pkg/util"
 )
 
 func NewValueReceiver(k *sql.ColumnType, originalTypeName string, location *time.Location) any {

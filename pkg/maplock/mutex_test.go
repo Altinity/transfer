@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	mathutil "github.com/doublecloud/transfer/pkg/util/math"
+	mathutil "github.com/altinity/transfer/pkg/util/math"
 )
 
 const MaxRetry = 100000
