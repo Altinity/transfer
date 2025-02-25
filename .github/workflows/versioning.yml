@@ -18,6 +18,7 @@ jobs:
         with:
           fetch-depth: 0
           fetch-tags: true
+          ref: release
       - name: Calculate version
         id: calculate-version
         uses: bitshifted/git-auto-semver@v1
