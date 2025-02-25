@@ -6,9 +6,6 @@ on:
       - closed
     branches:
       - release
-  push:
-    branches:
-      - release
   workflow_call:
   workflow_dispatch:
 
