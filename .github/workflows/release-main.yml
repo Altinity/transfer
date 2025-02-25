@@ -4,6 +4,10 @@ on:
   workflow_call:
   workflow_dispatch:
 
+permissions:
+  contents: write
+  packages: write
+
 jobs:
   sync-branch:
     runs-on: ubuntu-latest
