@@ -190,10 +190,12 @@ affinity:
 ## Debugging and Monitoring
 
 ### Debug mode
-If you set `mode: debug` for particular transfer, all Kubernetes objects will be created, but instead of trcli, sh will be used as the entrypoint. So you can exec into Pod, manually run trcli to see what is going on, tune settings/config/etc. 
+If you set `mode: debug` for particular transfer, all Kubernetes objects will be created, but instead of trcli, sh will be used as the entrypoint. So you can exec into Pod, manually run trcli with different commands to see what is going on, tune settings/config/etc. 
 
 ```
 cd config
+trcli validate
+trcli check
 trcli replicate
 trcli replicate --coordinator s3 --coordinator-s3-bucket bucket_name --log-level debug --log-config console --coordinator-job-count 1 --coordinator-process-count 4
 ```
@@ -201,7 +203,7 @@ trcli replicate --coordinator s3 --coordinator-s3-bucket bucket_name --log-level
 You can override any configuration option in the `values.yaml` file by using the `--set` flag when installing the Helm chart. For example:
 
 ```bash
-helm upgrade transfer ./ --set transfers.name.mode=debug
+helm upgrade transfer ./ --set transfers.test1.mode=debug
 ```
 
 ### Monitoring

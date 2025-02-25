@@ -63,7 +63,11 @@ spec:
             {{- else }}
           command:
             - "/usr/local/bin/trcli"
+              {{- if eq $type "SNAPSHOT_ONLY" }}
+            - "activate"
+              {{- else }}
             - "replicate"
+              {{- end }}
             - "--transfer"
             - "/config/transfer.yaml"
             - "--log-level"
