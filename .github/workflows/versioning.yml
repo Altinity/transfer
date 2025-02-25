@@ -3,7 +3,7 @@ name: Versioning
 on:
   push:
     branches:
-      - release
+      - main
 
 permissions:
   contents: write
@@ -18,12 +18,11 @@ jobs:
         with:
           fetch-depth: 0
           fetch-tags: true
-          ref: release
       - name: Calculate version
         id: calculate-version
         uses: bitshifted/git-auto-semver@v1
         with:
-          main_branch: release
+          main_branch: main
           create_tag: true
           tag_prefix: "v"
   release:
