@@ -1,9 +1,7 @@
-name: Versioning
+name: Automatic Versioning
 
 on:
-  pull_request:
-    types:
-      - closed
+  push:
     branches:
       - release
   workflow_call:
@@ -39,23 +37,3 @@ jobs:
           main_branch: release
           create_tag: true
           tag_prefix: "v"
-
-  post-comment:
-    needs: [versioning]
-    if: github.event.pull_request.merged == true
-    runs-on: ubuntu-latest
-    steps:
-      - name: "Comment PR"
-        uses: thollander/actions-comment-pull-request@v3
-        with:
-          message: |
-            **🎉 New Version Tag Created! 🎉**
-
-            We've successfully merged your changes, and a new version has been tagged. Here are the details:
-
-            - **Tag:** [v${{ needs.versioning.outputs.current-tag}}](${{ github.server_url }}/${{ github.repository }}/tree/v${{ needs.versioning.outputs.current-tag}})
-            - **Repository:** [${{ github.repository }}](${{ github.server_url }}/${{ github.repository }})
-
-            You can now proceed to create a release by visiting the [release workflow](${{ github.server_url }}/${{ github.repository }}/actions/workflows/release.yml). Click the link to get started!
-
-            Thank you for your contribution and helping us improve. 🚀
