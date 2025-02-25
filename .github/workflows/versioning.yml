@@ -3,7 +3,7 @@ name: Versioning
 on:
   push:
     branches:
-      - main
+      - release
 
 permissions:
   contents: write
@@ -12,6 +12,8 @@ permissions:
 jobs:
   versioning:
     runs-on: ubuntu-latest
+    outputs:
+      current-tag: ${{ steps.calculate-version.outputs.version-string }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -22,10 +24,12 @@ jobs:
         id: calculate-version
         uses: bitshifted/git-auto-semver@v1
         with:
-          main_branch: main
+          main_branch: release
           create_tag: true
           tag_prefix: "v"
   release:
     needs: [versioning]
     uses: ./.github/workflows/release.yml
     secrets: inherit
+    with:
+      current-tag: ${{ needs.versioning.outputs.current-tag }}
