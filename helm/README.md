@@ -21,7 +21,7 @@ Each transfer could be configured separately as:
 To install the chart, first run the following command:
 
 ```bash
-helm pull oci://ghcr.io/doublecloud/transfer-helm/transfer
+helm pull oci://ghcr.io/doublecloud/transfer-helm/transfer  # download the chart
 ```
 After editing the values.yaml file, you can install the chart:
 

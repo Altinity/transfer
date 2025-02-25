@@ -7,6 +7,14 @@
 
 {{- $type := .type | default "INCREMENT_ONLY" }}
 {{- $log_level := .log_level | default "info" }}
+# to force a pod restart on configs change
+{{- $checksum := printf "%s|%s|%s|%s"
+      ($.Files.Get (printf "configs/%s.yaml" .name))
+      ($.Files.Get "configs/defaults.yaml")
+      ($.Files.Get (printf "db-hosts/%s.yaml" .src))
+      ($.Files.Get (printf "db-hosts/%s.yaml" .dst))
+      | sha256sum
+}}
 
 ---
 apiVersion: apps/v1
@@ -49,6 +57,7 @@ spec:
       labels:
         app.kubernetes.io/name: {{ $.Release.Name }}
         app.kubernetes.io/component: {{ $.Release.Name }}-{{ $.Values.global.cluster }}-{{ .name }}
+        checksum/config: {{ substr 0 12 $checksum }} # Forces a pod restart on configs change
     spec:
       serviceAccountName: {{ $.Values.coordinator_s3.serviceAccountName }}
         {{- if $.Values.affinity }}
