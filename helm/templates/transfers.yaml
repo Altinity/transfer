@@ -67,33 +67,23 @@ spec:
       containers:
         - name: {{ $.Release.Name }}
           image: "{{ $.Values.image.repository }}:{{ $.Values.image.tag | default $.Chart.AppVersion }}"
-            {{- if eq .mode "debug" }}
-          command: ["sh", "-c", "sleep infinity"]
-            {{- else }}
           command:
-            - "/usr/local/bin/trcli"
-              {{- if eq $type "SNAPSHOT_ONLY" }}
-            - "activate"
-              {{- else }}
-            - "replicate"
+            - "sh"
+            - "-c"
+            - >
+              {{- if eq .mode "debug" }} 
+              sleep infinity; 
               {{- end }}
-            - "--transfer"
-            - "/config/transfer.yaml"
-            - "--log-level"
-            - "{{ $log_level }}"
-            - "--log-config"
-            - "console"
-            - "--metrics-prefix"
-            - "transfer"
-            - "--coordinator"
-            - "s3"
-            - "--coordinator-s3-bucket"
-            - "{{ $.Values.coordinator_s3.bucket }}"
-            - "--coordinator-job-count"
-            - "{{ .job_count | default 1 }}"
-            - "--coordinator-process-count"
-            - "{{ .process_count | default 4 }}"
-            {{- end }}
+              /usr/local/bin/trcli 
+              {{- if eq $type "SNAPSHOT_ONLY" }} activate {{- else }} replicate {{- end }}
+              --transfer /config/transfer.yaml
+              --log-level {{ $log_level }}
+              --log-config console
+              --metrics-prefix transfer
+              --coordinator s3
+              --coordinator-s3-bucket {{ $.Values.coordinator_s3.bucket }}
+              --coordinator-job-count {{ .job_count | default 1 }}
+              --coordinator-process-count {{ .process_count | default 4 }}
           env:
           - name: GOMEMLIMIT
             valueFrom:
