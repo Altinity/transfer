@@ -22,7 +22,7 @@ jobs:
           git config --local user.name "GitHub Actions"
 
           git switch release
-          git merge origin/main --no-commit
+          git merge --ff-only main
 
           git push origin release
 
