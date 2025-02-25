@@ -210,7 +210,3 @@ The transfer service exposes Prometheus metrics on port 9091. You can access the
 
 Feel free to open issues and submit PRs to improve this chart!
 
-
-
-
- 
