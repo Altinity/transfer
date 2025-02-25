@@ -56,7 +56,7 @@ jobs:
 
             We've successfully merged your changes, and a new version has been tagged. Here are the details:
 
-            - **Tag:** [v${{ jobs.versioning.outputs.current-tag}}](${{ github.server_url }}/${{ github.repository }}/tree/v${{ jobs.versioning.outputs.current-tag}})
+            - **Tag:** [v${{ needs.versioning.outputs.current-tag}}](${{ github.server_url }}/${{ github.repository }}/tree/v${{ needs.versioning.outputs.current-tag}})
             - **Repository:** [${{ github.repository }}](${{ github.server_url }}/${{ github.repository }})
 
             You can now proceed to create a release by visiting the [release workflow](${{ github.server_url }}/${{ github.repository }}/actions/workflows/release.yml). Click the link to get started!
