@@ -17,3 +17,8 @@ jobs:
           from_branch: main
           target_branch: release
           github_token: ${{ secrets.GITHUB_TOKEN }}
+
+  version:
+    needs: [sync-branch]
+    uses: ./.github/workflows/versioning.yml
+    secrets: inherit
