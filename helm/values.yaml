@@ -1,9 +1,10 @@
 global:
   namespace: "altinity-cloud-managed-clickhouse"
-  cluster: "prod"
+  cluster: "dev"
 
-image:    # version come from Chart.yaml
-  repository: ghcr.io/doublecloud/transfer
+image:
+  repository: altinity/transfer
+  #tag: 0.1.0  # default comes from Chart.yaml
 
 annotations:
   prometheus.io/path: /metrics

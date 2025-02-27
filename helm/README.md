@@ -26,15 +26,19 @@ helm pull oci://ghcr.io/doublecloud/transfer-helm/transfer  # download the chart
 After editing the values.yaml file, you can install the chart:
 
 ```bash
-helm install transfer ./transfer 
+helm install transfer ./
 ```
 
 ### 2. Uninstall the Helm chart
 
-To uninstall the chart, run:
+```bash
+helm uninstall transfer
+```
+
+### 3. Update the Helm chart
 
 ```bash
-helm uninstall <release-name>
+helm upgrade transfer ./
 ```
 
 ## Configuration
@@ -50,11 +54,13 @@ global:
   
 image:    
   repository: ghcr.io/doublecloud/transfer
+  tag: "latest"
 ```
 
 - cluster - is used to build the name of Kubernetes objects, like StatefulSet, Job, etc, and can be used inside ConfigMaps to build a hosts names and such. You can consider it as a namespace inside namespace. F.e. the same set of transfer jobs for stage and prod clusters can be deployed in the same namespace.
 - namespace - is used to deploy the chart to a specific namespace.
 - image - is the Docker image repo used for the transfer. The version is taken from the Chart.yaml file.
+- tag - is the Docker image tag used for the transfer (not required). The default is taken from the Chart.yaml appVersion key.
 
 ### Pod resource limits
 
